@@ -10,7 +10,7 @@ repellent.ahoy: verbatim text as typed in from magazine
 repellent.bas:  program listing in ASCII text
 repellent.prg:  program tokenized for C64 using petcat
 
-
+Code checked out with Bug Repellent.  (Meta - I know.)
 ******************************************************
 C-64 BUG REPELLENT
 By Michael Kleinert and David Barron
