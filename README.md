@@ -17,7 +17,9 @@ C-64 BUG REPELLENT
 By Michael Kleinert and David Barron
 
 The program listed below will allow you to quickly 
-debug any Ahoy! program you type in on your C-64.
+debug any Ahoy! program up until May 1987 you type
+in on your C-64.  Starting with the May 1987 issue,
+a different Bug Repellent version was used.
 
 Type in, SAVE, and RUN the Bug Repellent.  Type NEW,
 then type in or LOAD the Ahoy! progrnm you wish to
