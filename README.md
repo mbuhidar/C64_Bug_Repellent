@@ -6,6 +6,7 @@ against the output of Bug Repellent to quickly identify
 lines that had errors.
 
 Code extensions:
+
 repellent.ahoy: verbatim text as typed in from magazine  
 repellent.bas:  program listing in PETSCII text  
 repellent.prg:  program tokenized for C64 using petcat  

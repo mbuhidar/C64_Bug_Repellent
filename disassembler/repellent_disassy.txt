@@ -1,24 +1,24 @@
 
 starting address (decimal)? 49152
 start address hex  c000
- 49152  jsr   49313
- 49155  lda   43
- 49157  sta   251
- 49159  lda   44
- 49161  sta   252
- 49163  ldy  # 0
- 49165  sty   254
- 49167  jsr   49445
- 49170  nop
- 49171  lda ( 251 ),y
- 49173  bne         49178
- 49175  jmp    --->   49290
- 49178  inc   251
- 49180  bne         49184
- 49182  inc   252
- 49184  jmp    --->   49195
- 49187  jmp    --->   20041
- 49190  eor   32
+ 49152  jsr   49313  jump to 49313 and save return addy
+ 49155  lda   43     load accumulator from 43
+ 49157  sta   251    store accumulator in 251
+ 49159  lda   44     load accumulator from 44
+ 49161  sta   252    store accumulator in 251
+ 49163  ldy  # 0     load y register
+ 49165  sty   254    store y register to 254
+ 49167  jsr   49445  jump to 49445 and save return addy
+ 49170  nop          no operation
+ 49171  lda ( 251 ),y  load accumulator from 251 into y?
+ 49173  bne         49178  branch on anything but zero to 49178
+ 49175  jmp    --->   49290   jump to 49290 
+ 49178  inc   251             increment 251 by 1
+ 49180  bne         49184     branch on anything but zero to 49184
+ 49182  inc   252             increment 252 by 1
+ 49184  jmp    --->   49195   jump to 49195
+ 49187  jmp    --->   20041   jump to 20041??
+ 49190  eor   32              XOR 32 with accumulator
  49192   ?     35
  49193  jsr   43264
  49196   ?     35
@@ -26,7 +26,7 @@ start address hex  c000
  49199  jsr   43806
  49202  ldy  # 0
  49204  lda ( 251 ),y
- 49206  tax
+ 49206  tax                 transfer accumulator to x reg
  49207  inc   251
  49209  bne         49213
  49211  inc   252
@@ -46,12 +46,12 @@ start address hex  c000
  49242  lda ( 251 ),y
  49244  bne         49227
  49246  lda   253
- 49248  and  # 240
- 49250  lsr
+ 49248  and  # 240     AND mem with acc
+ 49250  lsr     shift right one bit in mem or acc
  49251  lsr
  49252  lsr
  49253  lsr
- 49254  clc
+ 49254  clc    clear carry flag
  49255  adc  # 65
  49257  jsr   65490
  49260  lda   253
@@ -138,8 +138,8 @@ start address hex  c000
  49427  cmp  # 32
  49429  beq         49437
  49431  txa
- 49432  adc ( 251 ),y
- 49434  eor   254
+ 49432  adc ( 251 ),y  add mem to acc with carry
+ 49434  eor   254      XOR 
  49436  tax
  49437  txa
  49438  jmp    --->   49240
