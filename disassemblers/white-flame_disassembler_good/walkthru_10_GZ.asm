@@ -16,17 +16,17 @@ c000: Lc000 jsr Sc0a1 ; jump to c0a1 with return
   c0aa:       sta $fe ; store $03 in $fe
 
 - A:03 X:00 Y:C0 SP:f0 N.-.....
-        $fe=$03
+        $fe=#$03
 
   c0ac: Lc0ac jsr kGETIN ; load a with character from keyboard buffer
 
-        a='S' or $53
+        a='S' or #$53
 
   c0af:       cmp #$53 ; compare a with $53 ('S' for screen)
   c0b1:       beq Lc0b9 ; if a is 'S' output message at c0??
     
     c0b9: Lc0b9 jsr kCHROUT ; output message in a, in this case 'S'
-        a=$53 
+        a=#$53 
 
     c0bc:       lda #$04
     c0be:       ldx $fe (content is $03)
@@ -46,13 +46,13 @@ ____________________________________________________________________
 
 - A:00 X:03 Y:FF SP:f0 N.-.....
 
-        $3f=$00 (low byte of BASIC line number)
-        $40=$00 (hi byte of BASIC line number)
-        $02=$00 (unused memory location)
+        $3f=#$00 (low byte of BASIC line number)
+        $40=#$00 (hi byte of BASIC line number)
+        $02=#$00 (unused memory location)
 
     c0cd:       jsr kSETNAM ; set filename
 
-        a=$00 (length of file name), 
+        a=#$00 (length of file name), 
 
     c0d0:       jsr kOPEN ; open logical file based on SETLFS and SETNAM
     c0d3:       ldx $fe ; currently $03 - redundant?
@@ -83,13 +83,18 @@ c00f:       jsr Sc125 ; increment the fb/fc pointers to BASIC location
   c127:       bne Lc12b ; if low byte is not zero, return
   c129:       inc $fc ; if low byte is zero, increment high byte and return
 
-$fb=$02, $fc=$08, $fe=$00, y=$00
+A:08 X:03 Y:00
+$fb=$02, $fc=$08, $fe=$00
 
   c12b: Lc12b rts
 
 c012:       nop
 c013:       lda ($fb),y ; load a with contents of 2nd byte of BASIC memory
               load a with byte 2 of basic mem -> a=$08             
+
+A:08 X:03 Y:00
+$fb=$02, $fc=$08, $fe=$00
+
 c015:       bne Lc01a ; if next low byte not 0, goto c01a
 c017:       jmp Lc08a ; if next low byte is 0, goto c08a 
 
@@ -97,7 +102,9 @@ c01a: Lc01a inc $fb ; routine to increment lo/hi bytes
 c01c:       bne Lc020
 c01e:       inc $fc
 c020: Lc020 jmp Lc02b ; goto print next line output
-              $fb=$03, $fc=$08, $fe=$00, a=$08, y=$00, 
+
+A:08 X:03 Y:00
+$fb=$03, $fc=$08, $fe=$00
 
 c023:       4c 49 4e 45 20 23 20 00 ; "LINE #" 
 c02b: Lc02b lda #$23 ; low byte of data loc
@@ -105,12 +112,17 @@ c02d:       ldy #$c0 ; high byte of data loc
 c02f:       jsr bSTROUT ; prints "LINE #"
 c032:       ldy #$00
 c034:       lda ($fb),y ; $fb contains pointer to byte 3 in basic mem
-              a=lo byte of line number-> $0a for dec 10; y=$00
+              a=contents of 0803 -> $0a for decimal 10
               
+A:0A X:03 Y:00
+$fb=$03, $fc=$08, $fe=$00
+
 c036:       tax ; transfer a to x
-              x=$0a
 c037:       inc $fb
-              $fb=$04
+
+A:0A X:0A Y:00
+$fb=$04, $fc=$08, $fe=$00
+
 c039:       bne Lc03d ; not zero so skip inc $fc
 c03b:      xx inc $fc xx
 c03d: Lc03d lda ($fb),y
@@ -120,71 +132,114 @@ c03f:       jsr $bdcd ; prints BASIC line number to screen
 c042:       lda #$3a ; character for ":"
 c044:       jsr kCHROUT ; print ":" to screeni
 
+A:3A X:0A Y:00
+$fb=$04, $fc=$08, $fe=$00
 ___________________________________________________________________________
 
 c047:       lda #$00
 c049:       sta $fd
+
+***************************************************************************
+
 c04b: Lc04b inc $fe
-              $fd=$00, $fe=$01
+
+A:00 X:0A Y:00
+$fb=04, $fc=08, $fd=00, $fe=01
+
 c04d:       jsr Sc125
 
   c125: Sc125 inc $fb ; increment BASIC pointer low byte to next character
   c127:       bne Lc12b ; if low byte is not zero, return
   c129:       inc $fc ; if low byte is zero, increment high byte and return
-              ******$fb=$05*****, $fc=$08, ,$fd=$00, $fe=$01
+
+A:00 X:0A Y:00
+$fb=05, $fc=08, $fd=00, $fe=01
+
   c12b: Lc12b rts
 
 c050:       nop
 c051:       lda $fd ; $fd=$00
 c053:       ldy #$00
+
+A:00 X:0A Y:00
+$fb=05, $fc=08, $fd=00, $fe=01
+
 c055:       jmp Lc10d
 
     c10d: Lc10d jmp Lc12c
 
     c12c: Lc12c tax
-                  x=$00, y=$00
+
+A:00 X:00 Y:00
+$fb=05, $fc=08, $fd=00, $fe=01
+
     c12d:       lda ($fb),y
-                  a=$47 (value for G in "10 G"
+                  a=$47 (value for G in "10 GZ"
+
+A:47 X:00 Y:00
+$fb=05, $fc=08, $fd=00, $fe=01
+
     c12f:       cmp #$22 ; compare with quote symbol "
-    c131:       bne Lc139 ; skip unless "
-    c133:       xx lda $02 ; skip unless "
-    c135:       xx eor #$ff ; skip unless "
-    c137:       xx sta $02 ; skip unless "
+    c131:       bne Lc139 ; acc not #$22 so branch (ZF not 0)
+
     c139: Lc139 lda $02
-                  a=$00 ; what's in $02????
+        mem $02 contains #$00
+
+A:00 X:00 Y:00
+$fb=05, $fc=08, $fd=00, $fe=01
+
     c13b:       bne Lc117 ; a is 0, so no branch
     c13d:       lda ($fb),y
-                  a=$47 (value for G in "10 G"
+                  a=$47 (value for G in "10 GZ"
+
+A:47 X:00 Y:00
+$fb=05, $fc=08, $fd=00, $fe=01
+
     c13f:       cmp #$20 ; compare with space
     c141:       bne Lc117
 
          c117: Lc117 txa
            a=$00
          c118:       adc ($fb),y
-           a=$00+$47
+           a=$00+$47=$47
          c11a:       eor $fe
            $47 xor $01 -> $46
          c11c:       tax
            x=$46
          c11d: Lc11d txa
            a=$46
+
+A:46 X:46 Y:00
+$fb=05, $fc=08, $fd=00, $fe=01
+
          c11e:       jmp Lc058
 
 c058: Lc058 sta $fd
           $fd=#$46
+
 c05a:       lda ($fb),y
           a=$47
+
+A:47 X:46 Y:00
+$fb=05, $fc=08, $fd=46, $fe=01
+
 c05c:       bne Lc04b
 
+****************************************************************************
+
 c04b: Lc04b inc $fe
-              $fd=$46, $fe=$02
+
+A:47 X:46 Y:00
+$fb=05, $fc=08, $fd=46, $fe=02
+
 c04d:       jsr Sc125
 
   c125: Sc125 inc $fb ; increment BASIC pointer low byte to next character
-                $fb=$06
+
+A:47 X:46 Y:00
+$fb=06, $fc=08, $fd=46, $fe=02
+
   c127:       bne Lc12b ; if low byte is not zero, return
-  c129:       xx inc $fc ; if low byte is zero, increment high byte and return
-              $fb=$06, $fc=$08, ,$fd=$46, $fe=$02
   c12b: Lc12b rts
 
 c050:       nop
@@ -195,57 +250,156 @@ c055:       jmp Lc10d
     c10d: Lc10d jmp Lc12c
 
     c12c: Lc12c tax
-                  x=$46, y=$00
     c12d:       lda ($fb),y
-                  a=$00 (value for end of "10 G"
+                  a=$5a (value for Z in "10 GZ"
+A:5A X:46 Y:00
+$fb=06, $fc=08, $fd=46, $fe=02
+
     c12f:       cmp #$22 ; compare with quote symbol "
-    c131:       bne Lc139 ; skip unless "
-    c133:       xx lda $02 ; skip unless "
-    c135:       xx eor #$ff ; skip unless "
-    c137:       xx sta $02 ; skip unless "
+    c131:       bne Lc139 ; not equal so branch
+
     c139: Lc139 lda $02
                   a=$00
-    c13b:       bne Lc117 ; a is 0, so no branch
+    c13b:       bne Lc117 ; a is 0, don't branch
 
-c13d:       lda ($fb),y ; a=$00
+A:00 X:46 Y:00
+$fb=06, $fc=08, $fd=46, $fe=02
+
+c13d:       lda ($fb),y ; a=$5a
 c13f:       cmp #$20
 c141:       bne Lc117 ; not equal, so branch
 
          c117: Lc117 txa
            a=$46
          c118:       adc ($fb),y
-           a=$00+$46
+           a=$5a+$46=$a0
          c11a:       eor $fe
-           $46 xor $02 -> $44
+           $a0 xor $02 -> $a2
          c11c:       tax
-           x=$44
+           x=$a2
          c11d: Lc11d txa
-           a=$44
+           a=$a2
+
+A:A2 X:A2 Y:00
+$fb=06, $fc=08, $fd=46, $fe=02
+
          c11e:       jmp Lc058
 
 c058: Lc058 sta $fd
-          $fd=#$44
+          $fd=#$a2
+
+A:A2 X:A2 Y:00
+$fb=06, $fc=08, $fd=A2, $fe=02
+
+c05a:       lda ($fb),y
+          a=$5a
+
+c05c:       bne Lc04b
+
+**************************************************************************
+
+c04b: Lc04b inc $fe
+
+A:5A X:A2 Y:00
+$fb=06, $fc=08, $fd=A2, $fe=03
+
+c04d:       jsr Sc125
+
+  c125: Sc125 inc $fb ; increment BASIC pointer low byte to next character
+  c127:       bne Lc12b ; if low byte is not zero, return
+  c129:       inc $fc ; if low byte is zero, increment high byte and return
+
+A:5A X:A2 Y:00
+$fb=07, $fc=08, $fd=A2, $fe=03
+
+  c12b: Lc12b rts
+
+c050:       nop
+c051:       lda $fd
+c053:       ldy #$00
+c055:       jmp Lc10d
+
+A:A2 X:A2 Y:00
+$fb=07, $fc=08, $fd=A2, $fe=03
+
+    c10d: Lc10d jmp Lc12c
+
+    c12c: Lc12c tax
+    c12d:       lda ($fb),y
+                  a=$00 (value for end of "10 GZ"
+A:00 X:A2 Y:00
+$fb=07, $fc=08, $fd=A2, $fe=03
+
+    c12f:       cmp #$22 ; compare with quote symbol "
+    c131:       bne Lc139 ; not equal so branch
+
+    c139: Lc139 lda $02
+                  a=$00
+    c13b:       bne Lc117 ; a is 0, don't branch
+
+A:00 X:A2 Y:00
+$fb=07, $fc=08, $fd=A2, $fe=03
+
+c13d:       lda ($fb),y ; a=$00
+c13f:       cmp #$20
+c141:       bne Lc117 ; not equal, so branch
+
+         c117: Lc117 txa
+           a=$a2
+         c118:       adc ($fb),y
+           a=$a2+$00=$a2
+         c11a:       eor $fe
+           $a2 xor $03 -> $a1
+         c11c:       tax
+           x=$a1
+         c11d: Lc11d txa
+           a=$a1
+
+A:A1 X:A1 Y:00
+$fb=07, $fc=08, $fd=A2, $fe=03
+
+         c11e:       jmp Lc058
+
+c058: Lc058 sta $fd
+          $fd=#$a1
+
+A:A1 X:A1 Y:00
+$fb=07, $fc=08, $fd=A1, $fe=03
+
 c05a:       lda ($fb),y
           a=$00
 
+c05c:       bne Lc04b ; a is zero so no branch
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A:00 X:A1 Y:00
+$fb=07, $fc=08, $fd=A1, $fe=03
+
 c05e:       lda $fd
-              a=#$44  ; (should be #$4b to work)!!!
-c060:       and #$f0 ; get high nibble of #$44 -> #$04
-              a=$40
+              a=#$a1  ; (should be #$a5 to work)!!!
+c060:       and #$f0 ; get high nibble of #$a1 -> #$a0
+              a=$a0
 c062:       lsr a
 c063:       lsr a
 c064:       lsr a
 c065:       lsr a
 c066:       clc ; clear carry flag
-                a=$04
+                a=$0a
 c067:       adc #$41
-                a=$04 + $41 => $45
-c069:       jsr kCHROUT ; should be $45 for E
-c06c:       lda $fd ; #$44
-c06e:       and #$0f ; get low nibble of #$44 -> #$04
+                a=$0a + $41 => $4b
+
+A:4B X:A1 Y:00
+$fb=07, $fc=08, $fd=A1, $fe=03
+
+c069:       jsr kCHROUT ; should be $4b for K - check!
+c06c:       lda $fd ; #$A1
+c06e:       and #$0f ; get low nibble of #$a1 -> #$01
 c070:       clc
-c071:       adc #$41 ->  $45 again
-c073:       jsr kCHROUT ; should be $4C for L?
+c071:       adc #$41
+                a=$01 + $41 => $42               
+c073:       jsr kCHROUT ; 
+                ; should be $46 for F? Can get with extra zero at end of line
 
 
 c076:       lda #$0d ; RETURN character
