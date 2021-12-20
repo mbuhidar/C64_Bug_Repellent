@@ -5,11 +5,18 @@ in the magazine after each program listing to check
 against the output of Bug Repellent to quickly identify
 lines that had errors.
 
+There were three versions of Bug Repellent during the
+history of Ahoy magazine.  
+
+Version 1 first appeared in Issue 4 and ended in Issue 5.
+Version 2 first appeared in Issue 6 and ended in Issue 40.
+Version 3 from Issue 41 to the end of publication.
+
 Code extensions:
-repellent.ahoy: verbatim text as typed in from magazine  
-repellent.bas:  program listing in PETSCII text  
-repellent.prg:  program tokenized for C64 using petcat  
-repellent.d64:  disk image in .d64 format
+filename.ahoy: verbatim text as typed in from magazine  
+filename.bas:  program listing in PETSCII text  
+filename.prg:  program tokenized for C64 using petcat  
+filename.d64:  disk image in .d64 format
 
 Code checked out with Bug Repellent.  (Meta - I know.)
 ******************************************************
