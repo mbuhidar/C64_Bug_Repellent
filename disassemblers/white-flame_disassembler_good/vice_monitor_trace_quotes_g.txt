@@ -1,0 +1,1005 @@
+
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323200
+#1 (Trace  exec c0ac)  168 059
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323203
+#1 (Trace  exec c0af)  169 026
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323233
+#1 (Trace  exec c0b1)  169 028
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323235
+#1 (Trace  exec c0b3)  169 030
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323237
+#1 (Trace  exec c0b5)  169 032
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323239
+#1 (Trace  exec c0ac)  169 035
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323242
+#1 (Trace  exec c0af)  170 002
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323272
+#1 (Trace  exec c0b1)  170 004
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323274
+#1 (Trace  exec c0b3)  170 006
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323276
+#1 (Trace  exec c0b5)  170 008
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323278
+#1 (Trace  exec c0ac)  170 011
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323281
+#1 (Trace  exec c0af)  170 041
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323311
+#1 (Trace  exec c0b1)  170 043
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323313
+#1 (Trace  exec c0b3)  170 045
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323315
+#1 (Trace  exec c0b5)  170 047
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323317
+#1 (Trace  exec c0ac)  170 050
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323320
+#1 (Trace  exec c0af)  171 060
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323393
+#1 (Trace  exec c0b1)  171 062
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323395
+#1 (Trace  exec c0b3)  172 001
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323397
+#1 (Trace  exec c0b5)  172 003
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323399
+#1 (Trace  exec c0ac)  172 006
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323402
+#1 (Trace  exec c0af)  172 036
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323432
+#1 (Trace  exec c0b1)  172 038
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323434
+#1 (Trace  exec c0b3)  172 040
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323436
+#1 (Trace  exec c0b5)  172 042
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323438
+#1 (Trace  exec c0ac)  172 045
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323441
+#1 (Trace  exec c0af)  173 012
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323471
+#1 (Trace  exec c0b1)  173 014
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323473
+#1 (Trace  exec c0b3)  173 016
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323475
+#1 (Trace  exec c0b5)  173 018
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323477
+#1 (Trace  exec c0ac)  173 021
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323480
+#1 (Trace  exec c0af)  173 051
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323510
+#1 (Trace  exec c0b1)  173 053
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323512
+#1 (Trace  exec c0b3)  173 055
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323514
+#1 (Trace  exec c0b5)  173 057
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323516
+#1 (Trace  exec c0ac)  173 060
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323519
+#1 (Trace  exec c0af)  174 027
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323549
+#1 (Trace  exec c0b1)  174 029
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323551
+#1 (Trace  exec c0b3)  174 031
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323553
+#1 (Trace  exec c0b5)  174 033
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323555
+#1 (Trace  exec c0ac)  174 036
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323558
+#1 (Trace  exec c0af)  175 003
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323588
+#1 (Trace  exec c0b1)  175 005
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323590
+#1 (Trace  exec c0b3)  175 007
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323592
+#1 (Trace  exec c0b5)  175 009
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323594
+#1 (Trace  exec c0ac)  175 012
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323597
+#1 (Trace  exec c0af)  175 042
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323627
+#1 (Trace  exec c0b1)  175 044
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323629
+#1 (Trace  exec c0b3)  175 046
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323631
+#1 (Trace  exec c0b5)  175 048
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323633
+#1 (Trace  exec c0ac)  175 051
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323636
+#1 (Trace  exec c0af)  176 018
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323666
+#1 (Trace  exec c0b1)  176 020
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323668
+#1 (Trace  exec c0b3)  176 022
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323670
+#1 (Trace  exec c0b5)  176 024
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323672
+#1 (Trace  exec c0ac)  176 027
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323675
+#1 (Trace  exec c0af)  176 057
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323705
+#1 (Trace  exec c0b1)  176 059
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323707
+#1 (Trace  exec c0b3)  176 061
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323709
+#1 (Trace  exec c0b5)  177 000
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323711
+#1 (Trace  exec c0ac)  177 003
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323714
+#1 (Trace  exec c0af)  177 033
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323744
+#1 (Trace  exec c0b1)  177 035
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323746
+#1 (Trace  exec c0b3)  177 037
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323748
+#1 (Trace  exec c0b5)  177 039
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323750
+#1 (Trace  exec c0ac)  177 042
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323753
+#1 (Trace  exec c0af)  178 009
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323783
+#1 (Trace  exec c0b1)  178 011
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323785
+#1 (Trace  exec c0b3)  178 013
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323787
+#1 (Trace  exec c0b5)  178 015
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323789
+#1 (Trace  exec c0ac)  178 018
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323792
+#1 (Trace  exec c0af)  178 048
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323822
+#1 (Trace  exec c0b1)  178 050
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323824
+#1 (Trace  exec c0b3)  178 052
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323826
+#1 (Trace  exec c0b5)  178 054
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323828
+#1 (Trace  exec c0ac)  178 057
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323831
+#1 (Trace  exec c0af)  180 004
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323904
+#1 (Trace  exec c0b1)  180 006
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323906
+#1 (Trace  exec c0b3)  180 008
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323908
+#1 (Trace  exec c0b5)  180 010
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323910
+#1 (Trace  exec c0ac)  180 013
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323913
+#1 (Trace  exec c0af)  180 043
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323943
+#1 (Trace  exec c0b1)  180 045
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323945
+#1 (Trace  exec c0b3)  180 047
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323947
+#1 (Trace  exec c0b5)  180 049
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323949
+#1 (Trace  exec c0ac)  180 052
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323952
+#1 (Trace  exec c0af)  181 019
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936323982
+#1 (Trace  exec c0b1)  181 021
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323984
+#1 (Trace  exec c0b3)  181 023
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936323986
+#1 (Trace  exec c0b5)  181 025
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323988
+#1 (Trace  exec c0ac)  181 028
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936323991
+#1 (Trace  exec c0af)  181 058
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324021
+#1 (Trace  exec c0b1)  181 060
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324023
+#1 (Trace  exec c0b3)  181 062
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324025
+#1 (Trace  exec c0b5)  182 001
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324027
+#1 (Trace  exec c0ac)  182 004
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324030
+#1 (Trace  exec c0af)  182 034
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324060
+#1 (Trace  exec c0b1)  182 036
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324062
+#1 (Trace  exec c0b3)  182 038
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324064
+#1 (Trace  exec c0b5)  182 040
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324066
+#1 (Trace  exec c0ac)  182 043
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324069
+#1 (Trace  exec c0af)  183 010
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324099
+#1 (Trace  exec c0b1)  183 012
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324101
+#1 (Trace  exec c0b3)  183 014
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324103
+#1 (Trace  exec c0b5)  183 016
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324105
+#1 (Trace  exec c0ac)  183 019
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324108
+#1 (Trace  exec c0af)  183 049
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324138
+#1 (Trace  exec c0b1)  183 051
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324140
+#1 (Trace  exec c0b3)  183 053
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324142
+#1 (Trace  exec c0b5)  183 055
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324144
+#1 (Trace  exec c0ac)  183 058
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324147
+#1 (Trace  exec c0af)  184 025
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324177
+#1 (Trace  exec c0b1)  184 027
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324179
+#1 (Trace  exec c0b3)  184 029
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324181
+#1 (Trace  exec c0b5)  184 031
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324183
+#1 (Trace  exec c0ac)  184 034
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324186
+#1 (Trace  exec c0af)  185 001
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324216
+#1 (Trace  exec c0b1)  185 003
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324218
+#1 (Trace  exec c0b3)  185 005
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324220
+#1 (Trace  exec c0b5)  185 007
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324222
+#1 (Trace  exec c0ac)  185 010
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324225
+#1 (Trace  exec c0af)  185 040
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324255
+#1 (Trace  exec c0b1)  185 042
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324257
+#1 (Trace  exec c0b3)  185 044
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324259
+#1 (Trace  exec c0b5)  185 046
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324261
+#1 (Trace  exec c0ac)  185 049
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324264
+#1 (Trace  exec c0af)  186 016
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324294
+#1 (Trace  exec c0b1)  186 018
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324296
+#1 (Trace  exec c0b3)  186 020
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324298
+#1 (Trace  exec c0b5)  186 022
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324300
+#1 (Trace  exec c0ac)  186 025
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324303
+#1 (Trace  exec c0af)  186 055
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324333
+#1 (Trace  exec c0b1)  186 057
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324335
+#1 (Trace  exec c0b3)  186 059
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324337
+#1 (Trace  exec c0b5)  186 061
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324339
+#1 (Trace  exec c0ac)  187 001
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324342
+#1 (Trace  exec c0af)  188 011
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324415
+#1 (Trace  exec c0b1)  188 013
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324417
+#1 (Trace  exec c0b3)  188 015
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324419
+#1 (Trace  exec c0b5)  188 017
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324421
+#1 (Trace  exec c0ac)  188 020
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324424
+#1 (Trace  exec c0af)  188 050
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324454
+#1 (Trace  exec c0b1)  188 052
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324456
+#1 (Trace  exec c0b3)  188 054
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324458
+#1 (Trace  exec c0b5)  188 056
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324460
+#1 (Trace  exec c0ac)  188 059
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324463
+#1 (Trace  exec c0af)  189 026
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324493
+#1 (Trace  exec c0b1)  189 028
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324495
+#1 (Trace  exec c0b3)  189 030
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324497
+#1 (Trace  exec c0b5)  189 032
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324499
+#1 (Trace  exec c0ac)  189 035
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324502
+#1 (Trace  exec c0af)  190 002
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324532
+#1 (Trace  exec c0b1)  190 004
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324534
+#1 (Trace  exec c0b3)  190 006
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324536
+#1 (Trace  exec c0b5)  190 008
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324538
+#1 (Trace  exec c0ac)  190 011
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324541
+#1 (Trace  exec c0af)  190 041
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324571
+#1 (Trace  exec c0b1)  190 043
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324573
+#1 (Trace  exec c0b3)  190 045
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324575
+#1 (Trace  exec c0b5)  190 047
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324577
+#1 (Trace  exec c0ac)  190 050
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324580
+#1 (Trace  exec c0af)  191 017
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324610
+#1 (Trace  exec c0b1)  191 019
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324612
+#1 (Trace  exec c0b3)  191 021
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324614
+#1 (Trace  exec c0b5)  191 023
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324616
+#1 (Trace  exec c0ac)  191 026
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324619
+#1 (Trace  exec c0af)  191 056
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324649
+#1 (Trace  exec c0b1)  191 058
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324651
+#1 (Trace  exec c0b3)  191 060
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324653
+#1 (Trace  exec c0b5)  191 062
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324655
+#1 (Trace  exec c0ac)  192 002
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324658
+#1 (Trace  exec c0af)  192 032
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324688
+#1 (Trace  exec c0b1)  192 034
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324690
+#1 (Trace  exec c0b3)  192 036
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324692
+#1 (Trace  exec c0b5)  192 038
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324694
+#1 (Trace  exec c0ac)  192 041
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324697
+#1 (Trace  exec c0af)  193 008
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324727
+#1 (Trace  exec c0b1)  193 010
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324729
+#1 (Trace  exec c0b3)  193 012
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324731
+#1 (Trace  exec c0b5)  193 014
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324733
+#1 (Trace  exec c0ac)  193 017
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324736
+#1 (Trace  exec c0af)  193 047
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324766
+#1 (Trace  exec c0b1)  193 049
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324768
+#1 (Trace  exec c0b3)  193 051
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324770
+#1 (Trace  exec c0b5)  193 053
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324772
+#1 (Trace  exec c0ac)  193 056
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324775
+#1 (Trace  exec c0af)  194 023
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324805
+#1 (Trace  exec c0b1)  194 025
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324807
+#1 (Trace  exec c0b3)  194 027
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324809
+#1 (Trace  exec c0b5)  194 029
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324811
+#1 (Trace  exec c0ac)  194 032
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324814
+#1 (Trace  exec c0af)  194 062
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324844
+#1 (Trace  exec c0b1)  195 001
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324846
+#1 (Trace  exec c0b3)  195 003
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324848
+#1 (Trace  exec c0b5)  195 005
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324850
+#1 (Trace  exec c0ac)  195 008
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324853
+#1 (Trace  exec c0af)  196 016
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324924
+#1 (Trace  exec c0b1)  196 018
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324926
+#1 (Trace  exec c0b3)  196 020
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324928
+#1 (Trace  exec c0b5)  196 022
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324930
+#1 (Trace  exec c0ac)  196 025
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324933
+#1 (Trace  exec c0af)  196 055
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936324963
+#1 (Trace  exec c0b1)  196 057
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324965
+#1 (Trace  exec c0b3)  196 059
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936324967
+#1 (Trace  exec c0b5)  196 061
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324969
+#1 (Trace  exec c0ac)  197 001
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936324972
+#1 (Trace  exec c0af)  197 031
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325002
+#1 (Trace  exec c0b1)  197 033
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325004
+#1 (Trace  exec c0b3)  197 035
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325006
+#1 (Trace  exec c0b5)  197 037
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325008
+#1 (Trace  exec c0ac)  197 040
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325011
+#1 (Trace  exec c0af)  198 007
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325041
+#1 (Trace  exec c0b1)  198 009
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325043
+#1 (Trace  exec c0b3)  198 011
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325045
+#1 (Trace  exec c0b5)  198 013
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325047
+#1 (Trace  exec c0ac)  198 016
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325050
+#1 (Trace  exec c0af)  198 046
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325080
+#1 (Trace  exec c0b1)  198 048
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325082
+#1 (Trace  exec c0b3)  198 050
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325084
+#1 (Trace  exec c0b5)  198 052
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325086
+#1 (Trace  exec c0ac)  198 055
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325089
+#1 (Trace  exec c0af)  199 022
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325119
+#1 (Trace  exec c0b1)  199 024
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325121
+#1 (Trace  exec c0b3)  199 026
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325123
+#1 (Trace  exec c0b5)  199 028
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325125
+#1 (Trace  exec c0ac)  199 031
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325128
+#1 (Trace  exec c0af)  199 061
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325158
+#1 (Trace  exec c0b1)  200 000
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325160
+#1 (Trace  exec c0b3)  200 002
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325162
+#1 (Trace  exec c0b5)  200 004
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325164
+#1 (Trace  exec c0ac)  200 007
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325167
+#1 (Trace  exec c0af)  200 037
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325197
+#1 (Trace  exec c0b1)  200 039
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325199
+#1 (Trace  exec c0b3)  200 041
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325201
+#1 (Trace  exec c0b5)  200 043
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325203
+#1 (Trace  exec c0ac)  200 046
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325206
+#1 (Trace  exec c0af)  201 013
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325236
+#1 (Trace  exec c0b1)  201 015
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325238
+#1 (Trace  exec c0b3)  201 017
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325240
+#1 (Trace  exec c0b5)  201 019
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325242
+#1 (Trace  exec c0ac)  201 022
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325245
+#1 (Trace  exec c0af)  201 052
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325275
+#1 (Trace  exec c0b1)  201 054
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325277
+#1 (Trace  exec c0b3)  201 056
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325279
+#1 (Trace  exec c0b5)  201 058
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325281
+#1 (Trace  exec c0ac)  201 061
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325284
+#1 (Trace  exec c0af)  202 028
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325314
+#1 (Trace  exec c0b1)  202 030
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325316
+#1 (Trace  exec c0b3)  202 032
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325318
+#1 (Trace  exec c0b5)  202 034
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325320
+#1 (Trace  exec c0ac)  202 037
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325323
+#1 (Trace  exec c0af)  203 004
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325353
+#1 (Trace  exec c0b1)  203 006
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325355
+#1 (Trace  exec c0b3)  203 008
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325357
+#1 (Trace  exec c0b5)  203 010
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325359
+#1 (Trace  exec c0ac)  203 056
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325405
+#1 (Trace  exec c0af)  204 023
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325435
+#1 (Trace  exec c0b1)  204 025
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325437
+#1 (Trace  exec c0b3)  204 027
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325439
+#1 (Trace  exec c0b5)  204 029
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325441
+#1 (Trace  exec c0ac)  204 032
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325444
+#1 (Trace  exec c0af)  204 062
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325474
+#1 (Trace  exec c0b1)  205 001
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325476
+#1 (Trace  exec c0b3)  205 003
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325478
+#1 (Trace  exec c0b5)  205 005
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325480
+#1 (Trace  exec c0ac)  205 008
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325483
+#1 (Trace  exec c0af)  205 038
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325513
+#1 (Trace  exec c0b1)  205 040
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325515
+#1 (Trace  exec c0b3)  205 042
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325517
+#1 (Trace  exec c0b5)  205 044
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325519
+#1 (Trace  exec c0ac)  205 047
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325522
+#1 (Trace  exec c0af)  206 014
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325552
+#1 (Trace  exec c0b1)  206 016
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325554
+#1 (Trace  exec c0b3)  206 018
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325556
+#1 (Trace  exec c0b5)  206 020
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325558
+#1 (Trace  exec c0ac)  206 023
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325561
+#1 (Trace  exec c0af)  206 053
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325591
+#1 (Trace  exec c0b1)  206 055
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325593
+#1 (Trace  exec c0b3)  206 057
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325595
+#1 (Trace  exec c0b5)  206 059
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325597
+#1 (Trace  exec c0ac)  206 062
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325600
+#1 (Trace  exec c0af)  207 029
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325630
+#1 (Trace  exec c0b1)  207 031
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325632
+#1 (Trace  exec c0b3)  207 033
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325634
+#1 (Trace  exec c0b5)  207 035
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325636
+#1 (Trace  exec c0ac)  207 038
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325639
+#1 (Trace  exec c0af)  208 005
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z. 1936325669
+#1 (Trace  exec c0b1)  208 007
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325671
+#1 (Trace  exec c0b3)  208 009
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-..... 1936325673
+#1 (Trace  exec c0b5)  208 011
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325675
+#1 (Trace  exec c0ac)  208 014
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-..... 1936325678
+#1 (Trace  exec c0af)  237 047
+.C:c0af  C9 53       CMP #$53       - A:53 X:01 Y:53 SP:f4 ..-..... 1936327538
+#1 (Trace  exec c0b1)  237 049
+.C:c0b1  F0 06       BEQ $C0B9      - A:53 X:01 Y:53 SP:f4 ..-...ZC 1936327540
+#1 (Trace  exec c0b9)  237 052
+.C:c0b9  20 D2 FF    JSR $FFD2      - A:53 X:01 Y:53 SP:f4 ..-...ZC 1936327543
+#1 (Trace  exec c0bc)  242 015
+.C:c0bc  A9 04       LDA #$04       - A:53 X:01 Y:53 SP:f4 ..-..... 1936327821
+#1 (Trace  exec c0be)  242 017
+.C:c0be  A6 FE       LDX $FE        - A:04 X:01 Y:53 SP:f4 ..-..... 1936327823
+#1 (Trace  exec c0c0)  242 020
+.C:c0c0  A0 FF       LDY #$FF       - A:04 X:03 Y:53 SP:f4 ..-..... 1936327826
+#1 (Trace  exec c0c2)  242 022
+.C:c0c2  20 BA FF    JSR $FFBA      - A:04 X:03 Y:FF SP:f4 N.-..... 1936327828
+#1 (Trace  exec c0c5)  242 046
+.C:c0c5  A9 00       LDA #$00       - A:04 X:03 Y:FF SP:f4 N.-..... 1936327852
+#1 (Trace  exec c0c7)  242 048
+.C:c0c7  85 3F       STA $3F        - A:00 X:03 Y:FF SP:f4 ..-...Z. 1936327854
+#1 (Trace  exec c0c9)  242 051
+.C:c0c9  85 40       STA $40        - A:00 X:03 Y:FF SP:f4 ..-...Z. 1936327857
+#1 (Trace  exec c0cb)  242 054
+.C:c0cb  85 02       STA $02        - A:00 X:03 Y:FF SP:f4 ..-...Z. 1936327860
+#1 (Trace  exec c0cd)  242 057
+.C:c0cd  20 BD FF    JSR $FFBD      - A:00 X:03 Y:FF SP:f4 ..-...Z. 1936327863
+#1 (Trace  exec c0d0)  243 060
+.C:c0d0  20 C0 FF    JSR $FFC0      - A:00 X:03 Y:FF SP:f4 ..-...Z. 1936327929
+#1 (Trace  exec c0d3)  245 038
+.C:c0d3  A6 FE       LDX $FE        - A:03 X:00 Y:FF SP:f4 ..-...Z. 1936328033
+#1 (Trace  exec c0d5)  245 041
+.C:c0d5  20 C9 FF    JSR $FFC9      - A:03 X:03 Y:FF SP:f4 ..-..... 1936328036
+#1 (Trace  exec c0d8)  247 057
+.C:c0d8  4C 49 C1    JMP $C149      - A:03 X:03 Y:00 SP:f4 ..-....C 1936328178
+#1 (Trace  exec c149)  247 060
+.C:c149  A9 0D       LDA #$0D       - A:03 X:03 Y:00 SP:f4 ..-....C 1936328181
+#1 (Trace  exec c14b)  247 062
+.C:c14b  4C D2 FF    JMP $FFD2      - A:0D X:03 Y:00 SP:f4 ..-....C 1936328183
+#1 (Trace  exec c003)  251 038
+.C:c003  A5 2B       LDA $2B        - A:0D X:03 Y:00 SP:f6 ..-..... 1936328411
+#1 (Trace  exec c005)  251 041
+.C:c005  85 FB       STA $FB        - A:01 X:03 Y:00 SP:f6 ..-..... 1936328414
+#1 (Trace  exec c007)  251 044
+.C:c007  A5 2C       LDA $2C        - A:01 X:03 Y:00 SP:f6 ..-..... 1936328417
+#1 (Trace  exec c009)  251 047
+.C:c009  85 FC       STA $FC        - A:08 X:03 Y:00 SP:f6 ..-..... 1936328420
+#1 (Trace  exec c00b)  251 050
+.C:c00b  A0 00       LDY #$00       - A:08 X:03 Y:00 SP:f6 ..-..... 1936328423
+#1 (Trace  exec c00d)  251 052
+.C:c00d  84 FE       STY $FE        - A:08 X:03 Y:00 SP:f6 ..-...Z. 1936328425
+#1 (Trace  exec c00f)  251 055
+.C:c00f  20 25 C1    JSR $C125      - A:08 X:03 Y:00 SP:f6 ..-...Z. 1936328428
+#1 (Trace  exec c125)  251 061
+.C:c125  E6 FB       INC $FB        - A:08 X:03 Y:00 SP:f4 ..-...Z. 1936328434
+#1 (Trace  exec c127)  252 003
+.C:c127  D0 02       BNE $C12B      - A:08 X:03 Y:00 SP:f4 ..-..... 1936328439
+#1 (Trace  exec c12b)  252 006
+.C:c12b  60          RTS            - A:08 X:03 Y:00 SP:f4 ..-..... 1936328442
+#1 (Trace  exec c012)  252 012
+.C:c012  EA          NOP            - A:08 X:03 Y:00 SP:f6 ..-..... 1936328448
+#1 (Trace  exec c013)  252 014
+.C:c013  B1 FB       LDA ($FB),Y    - A:08 X:03 Y:00 SP:f6 ..-..... 1936328450
+#1 (Trace  exec c015)  252 019
+.C:c015  D0 03       BNE $C01A      - A:08 X:03 Y:00 SP:f6 ..-..... 1936328455
+#1 (Trace  exec c01a)  252 022
+.C:c01a  E6 FB       INC $FB        - A:08 X:03 Y:00 SP:f6 ..-..... 1936328458
+#1 (Trace  exec c01c)  252 027
+.C:c01c  D0 02       BNE $C020      - A:08 X:03 Y:00 SP:f6 ..-..... 1936328463
+#1 (Trace  exec c020)  252 030
+.C:c020  4C 2B C0    JMP $C02B      - A:08 X:03 Y:00 SP:f6 ..-..... 1936328466
+#1 (Trace  exec c02b)  252 033
+.C:c02b  A9 23       LDA #$23       - A:08 X:03 Y:00 SP:f6 ..-..... 1936328469
+#1 (Trace  exec c02d)  252 035
+.C:c02d  A0 C0       LDY #$C0       - A:23 X:03 Y:00 SP:f6 ..-..... 1936328471
+#1 (Trace  exec c02f)  252 037
+.C:c02f  20 1E AB    JSR $AB1E      - A:23 X:03 Y:C0 SP:f6 N.-..... 1936328473
+#1 (Trace  exec c032)  294 051
+.C:c032  A0 00       LDY #$00       - A:20 X:00 Y:07 SP:f6 ..-B..ZC 1936331133
+#1 (Trace  exec c034)  294 053
+.C:c034  B1 FB       LDA ($FB),Y    - A:20 X:00 Y:00 SP:f6 ..-B..ZC 1936331135
+#1 (Trace  exec c036)  294 058
+.C:c036  AA          TAX            - A:0A X:00 Y:00 SP:f6 ..-B...C 1936331140
+#1 (Trace  exec c037)  294 060
+.C:c037  E6 FB       INC $FB        - A:0A X:0A Y:00 SP:f6 ..-B...C 1936331142
+#1 (Trace  exec c039)  295 002
+.C:c039  D0 02       BNE $C03D      - A:0A X:0A Y:00 SP:f6 ..-B...C 1936331147
+#1 (Trace  exec c03d)  295 005
+.C:c03d  B1 FB       LDA ($FB),Y    - A:0A X:0A Y:00 SP:f6 ..-B...C 1936331150
+#1 (Trace  exec c03f)  295 010
+.C:c03f  20 CD BD    JSR $BDCD      - A:00 X:0A Y:00 SP:f6 ..-B..ZC 1936331155
+#1 (Trace  exec c042)  121 009
+.C:c042  A9 3A       LDA #$3A       - A:30 X:00 Y:02 SP:f6 ..-B..ZC 1936339848
+#1 (Trace  exec c044)  121 011
+.C:c044  20 D2 FF    JSR $FFD2      - A:3A X:00 Y:02 SP:f6 ..-B...C 1936339850
+******************************************************************************
+#1 (Trace  exec c047)  126 015
+.C:c047  A9 00       LDA #$00       - A:3A X:00 Y:02 SP:f6 ..-B.... 1936340169
+#1 (Trace  exec c049)  126 017
+.C:c049  85 FD       STA $FD        - A:00 X:00 Y:02 SP:f6 ..-B..Z. 1936340171
+#1 (Trace  exec c04b)  126 020
+.C:c04b  E6 FE       INC $FE        - A:00 X:00 Y:02 SP:f6 ..-B..Z. 1936340174
+#1 (Trace  exec c04d)  126 025
+.C:c04d  20 25 C1    JSR $C125      - A:00 X:00 Y:02 SP:f6 ..-B.... 1936340179
+#1 (Trace  exec c125)  126 031
+.C:c125  E6 FB       INC $FB        - A:00 X:00 Y:02 SP:f4 ..-B.... 1936340185
+#1 (Trace  exec c127)  126 036
+.C:c127  D0 02       BNE $C12B      - A:00 X:00 Y:02 SP:f4 ..-B.... 1936340190
+#1 (Trace  exec c12b)  126 039
+.C:c12b  60          RTS            - A:00 X:00 Y:02 SP:f4 ..-B.... 1936340193
+#1 (Trace  exec c050)  126 045
+.C:c050  EA          NOP            - A:00 X:00 Y:02 SP:f6 ..-B.... 1936340199
+#1 (Trace  exec c051)  126 047
+.C:c051  A5 FD       LDA $FD        - A:00 X:00 Y:02 SP:f6 ..-B.... 1936340201
+#1 (Trace  exec c053)  126 050
+.C:c053  A0 00       LDY #$00       - A:00 X:00 Y:02 SP:f6 ..-B..Z. 1936340204
+#1 (Trace  exec c055)  126 052
+.C:c055  4C 0D C1    JMP $C10D      - A:00 X:00 Y:00 SP:f6 ..-B..Z. 1936340206
+#1 (Trace  exec c10d)  126 055
+.C:c10d  4C 2C C1    JMP $C12C      - A:00 X:00 Y:00 SP:f6 ..-B..Z. 1936340209
+#1 (Trace  exec c12c)  126 058
+.C:c12c  AA          TAX            - A:00 X:00 Y:00 SP:f6 ..-B..Z. 1936340212
+#1 (Trace  exec c12d)  126 060
+.C:c12d  B1 FB       LDA ($FB),Y    - A:00 X:00 Y:00 SP:f6 ..-B..Z. 1936340214
+#1 (Trace  exec c12f)  127 002
+.C:c12f  C9 22       CMP #$22       - A:22 X:00 Y:00 SP:f6 ..-B.... 1936340219
+#1 (Trace  exec c131)  127 004
+.C:c131  D0 06       BNE $C139      - A:22 X:00 Y:00 SP:f6 ..-B..ZC 1936340221
+#1 (Trace  exec c133)  127 006
+.C:c133  A5 02       LDA $02        - A:22 X:00 Y:00 SP:f6 ..-B..ZC 1936340223
+#1 (Trace  exec c135)  127 009
+.C:c135  49 FF       EOR #$FF       - A:00 X:00 Y:00 SP:f6 ..-B..ZC 1936340226
+#1 (Trace  exec c137)  127 011
+.C:c137  85 02       STA $02        - A:FF X:00 Y:00 SP:f6 N.-B...C 1936340228
+#1 (Trace  exec c139)  127 014
+.C:c139  A5 02       LDA $02        - A:FF X:00 Y:00 SP:f6 N.-B...C 1936340231
+#1 (Trace  exec c13b)  127 017
+.C:c13b  D0 DA       BNE $C117      - A:FF X:00 Y:00 SP:f6 N.-B...C 1936340234
+#1 (Trace  exec c117)  127 020
+.C:c117  8A          TXA            - A:FF X:00 Y:00 SP:f6 N.-B...C 1936340237
+#1 (Trace  exec c118)  127 022
+.C:c118  71 FB       ADC ($FB),Y    - A:00 X:00 Y:00 SP:f6 ..-B..ZC 1936340239
+#1 (Trace  exec c11a)  127 027
+.C:c11a  45 FE       EOR $FE        - A:23 X:00 Y:00 SP:f6 ..-B.... 1936340244
+#1 (Trace  exec c11c)  127 030
+.C:c11c  AA          TAX            - A:22 X:00 Y:00 SP:f6 ..-B.... 1936340247
+#1 (Trace  exec c11d)  127 032
+.C:c11d  8A          TXA            - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340249
+#1 (Trace  exec c11e)  127 034
+.C:c11e  4C 58 C0    JMP $C058      - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340251
+#1 (Trace  exec c058)  127 037
+.C:c058  85 FD       STA $FD        - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340254
+#1 (Trace  exec c05a)  127 040
+.C:c05a  B1 FB       LDA ($FB),Y    - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340257
+#1 (Trace  exec c05c)  127 045
+.C:c05c  D0 ED       BNE $C04B      - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340262
+******************************************************************************
+#1 (Trace  exec c04b)  127 048
+.C:c04b  E6 FE       INC $FE        - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340265
+#1 (Trace  exec c04d)  127 053
+.C:c04d  20 25 C1    JSR $C125      - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340270
+#1 (Trace  exec c125)  127 059
+.C:c125  E6 FB       INC $FB        - A:22 X:22 Y:00 SP:f4 ..-B.... 1936340276
+#1 (Trace  exec c127)  128 001
+.C:c127  D0 02       BNE $C12B      - A:22 X:22 Y:00 SP:f4 ..-B.... 1936340281
+#1 (Trace  exec c12b)  128 004
+.C:c12b  60          RTS            - A:22 X:22 Y:00 SP:f4 ..-B.... 1936340284
+#1 (Trace  exec c050)  128 010
+.C:c050  EA          NOP            - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340290
+#1 (Trace  exec c051)  128 012
+.C:c051  A5 FD       LDA $FD        - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340292
+#1 (Trace  exec c053)  128 015
+.C:c053  A0 00       LDY #$00       - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340295
+#1 (Trace  exec c055)  128 017
+.C:c055  4C 0D C1    JMP $C10D      - A:22 X:22 Y:00 SP:f6 ..-B..Z. 1936340297
+#1 (Trace  exec c10d)  128 020
+.C:c10d  4C 2C C1    JMP $C12C      - A:22 X:22 Y:00 SP:f6 ..-B..Z. 1936340300
+#1 (Trace  exec c12c)  128 023
+.C:c12c  AA          TAX            - A:22 X:22 Y:00 SP:f6 ..-B..Z. 1936340303
+#1 (Trace  exec c12d)  128 025
+.C:c12d  B1 FB       LDA ($FB),Y    - A:22 X:22 Y:00 SP:f6 ..-B.... 1936340305
+#1 (Trace  exec c12f)  128 030
+.C:c12f  C9 22       CMP #$22       - A:47 X:22 Y:00 SP:f6 ..-B.... 1936340310
+#1 (Trace  exec c131)  128 032
+.C:c131  D0 06       BNE $C139      - A:47 X:22 Y:00 SP:f6 ..-B...C 1936340312
+#1 (Trace  exec c139)  128 035
+.C:c139  A5 02       LDA $02        - A:47 X:22 Y:00 SP:f6 ..-B...C 1936340315
+#1 (Trace  exec c13b)  128 038
+.C:c13b  D0 DA       BNE $C117      - A:FF X:22 Y:00 SP:f6 N.-B...C 1936340318
+#1 (Trace  exec c117)  128 041
+.C:c117  8A          TXA            - A:FF X:22 Y:00 SP:f6 N.-B...C 1936340321
+#1 (Trace  exec c118)  128 043
+.C:c118  71 FB       ADC ($FB),Y    - A:22 X:22 Y:00 SP:f6 ..-B...C 1936340323
+#1 (Trace  exec c11a)  128 048
+.C:c11a  45 FE       EOR $FE        - A:6A X:22 Y:00 SP:f6 ..-B.... 1936340328
+#1 (Trace  exec c11c)  128 051
+.C:c11c  AA          TAX            - A:68 X:22 Y:00 SP:f6 ..-B.... 1936340331
+#1 (Trace  exec c11d)  128 053
+.C:c11d  8A          TXA            - A:68 X:68 Y:00 SP:f6 ..-B.... 1936340333
+#1 (Trace  exec c11e)  128 055
+.C:c11e  4C 58 C0    JMP $C058      - A:68 X:68 Y:00 SP:f6 ..-B.... 1936340335
+#1 (Trace  exec c058)  128 058
+.C:c058  85 FD       STA $FD        - A:68 X:68 Y:00 SP:f6 ..-B.... 1936340338
+#1 (Trace  exec c05a)  128 061
+.C:c05a  B1 FB       LDA ($FB),Y    - A:68 X:68 Y:00 SP:f6 ..-B.... 1936340341
+#1 (Trace  exec c05c)  129 003
+.C:c05c  D0 ED       BNE $C04B      - A:47 X:68 Y:00 SP:f6 ..-B.... 1936340346
+******************************************************************************
+#1 (Trace  exec c04b)  129 006
+.C:c04b  E6 FE       INC $FE        - A:47 X:68 Y:00 SP:f6 ..-B.... 1936340349
+#1 (Trace  exec c04d)  129 011
+.C:c04d  20 25 C1    JSR $C125      - A:47 X:68 Y:00 SP:f6 ..-B.... 1936340354
+#1 (Trace  exec c125)  129 017
+.C:c125  E6 FB       INC $FB        - A:47 X:68 Y:00 SP:f4 ..-B.... 1936340360
+#1 (Trace  exec c127)  129 022
+.C:c127  D0 02       BNE $C12B      - A:47 X:68 Y:00 SP:f4 ..-B.... 1936340365
+#1 (Trace  exec c12b)  129 025
+.C:c12b  60          RTS            - A:47 X:68 Y:00 SP:f4 ..-B.... 1936340368
+#1 (Trace  exec c050)  129 031
+.C:c050  EA          NOP            - A:47 X:68 Y:00 SP:f6 ..-B.... 1936340374
+#1 (Trace  exec c051)  129 033
+.C:c051  A5 FD       LDA $FD        - A:47 X:68 Y:00 SP:f6 ..-B.... 1936340376
+#1 (Trace  exec c053)  129 036
+.C:c053  A0 00       LDY #$00       - A:68 X:68 Y:00 SP:f6 ..-B.... 1936340379
+#1 (Trace  exec c055)  129 038
+.C:c055  4C 0D C1    JMP $C10D      - A:68 X:68 Y:00 SP:f6 ..-B..Z. 1936340381
+#1 (Trace  exec c10d)  129 041
+.C:c10d  4C 2C C1    JMP $C12C      - A:68 X:68 Y:00 SP:f6 ..-B..Z. 1936340384
+#1 (Trace  exec c12c)  129 044
+.C:c12c  AA          TAX            - A:68 X:68 Y:00 SP:f6 ..-B..Z. 1936340387
+#1 (Trace  exec c12d)  129 046
+.C:c12d  B1 FB       LDA ($FB),Y    - A:68 X:68 Y:00 SP:f6 ..-B.... 1936340389
+#1 (Trace  exec c12f)  129 051
+.C:c12f  C9 22       CMP #$22       - A:22 X:68 Y:00 SP:f6 ..-B.... 1936340394
+#1 (Trace  exec c131)  129 053
+.C:c131  D0 06       BNE $C139      - A:22 X:68 Y:00 SP:f6 ..-B..ZC 1936340396
+#1 (Trace  exec c133)  129 055
+.C:c133  A5 02       LDA $02        - A:22 X:68 Y:00 SP:f6 ..-B..ZC 1936340398
+#1 (Trace  exec c135)  129 058
+.C:c135  49 FF       EOR #$FF       - A:FF X:68 Y:00 SP:f6 N.-B...C 1936340401
+#1 (Trace  exec c137)  129 060
+.C:c137  85 02       STA $02        - A:00 X:68 Y:00 SP:f6 ..-B..ZC 1936340403
+#1 (Trace  exec c139)  130 000
+.C:c139  A5 02       LDA $02        - A:00 X:68 Y:00 SP:f6 ..-B..ZC 1936340406
+#1 (Trace  exec c13b)  130 003
+.C:c13b  D0 DA       BNE $C117      - A:00 X:68 Y:00 SP:f6 ..-B..ZC 1936340409
+#1 (Trace  exec c13d)  130 005
+.C:c13d  B1 FB       LDA ($FB),Y    - A:00 X:68 Y:00 SP:f6 ..-B..ZC 1936340411
+#1 (Trace  exec c13f)  130 010
+.C:c13f  C9 20       CMP #$20       - A:22 X:68 Y:00 SP:f6 ..-B...C 1936340416
+#1 (Trace  exec c141)  130 012
+.C:c141  D0 D4       BNE $C117      - A:22 X:68 Y:00 SP:f6 ..-B...C 1936340418
+#1 (Trace  exec c117)  130 015
+.C:c117  8A          TXA            - A:22 X:68 Y:00 SP:f6 ..-B...C 1936340421
+#1 (Trace  exec c118)  130 017
+.C:c118  71 FB       ADC ($FB),Y    - A:68 X:68 Y:00 SP:f6 ..-B...C 1936340423
+#1 (Trace  exec c11a)  130 022
+.C:c11a  45 FE       EOR $FE        - A:8B X:68 Y:00 SP:f6 NV-B.... 1936340428
+#1 (Trace  exec c11c)  130 025
+.C:c11c  AA          TAX            - A:88 X:68 Y:00 SP:f6 NV-B.... 1936340431
+#1 (Trace  exec c11d)  130 027
+.C:c11d  8A          TXA            - A:88 X:88 Y:00 SP:f6 NV-B.... 1936340433
+#1 (Trace  exec c11e)  130 029
+.C:c11e  4C 58 C0    JMP $C058      - A:88 X:88 Y:00 SP:f6 NV-B.... 1936340435
+#1 (Trace  exec c058)  130 032
+.C:c058  85 FD       STA $FD        - A:88 X:88 Y:00 SP:f6 NV-B.... 1936340438
+#1 (Trace  exec c05a)  130 035
+.C:c05a  B1 FB       LDA ($FB),Y    - A:88 X:88 Y:00 SP:f6 NV-B.... 1936340441
+#1 (Trace  exec c05c)  130 040
+.C:c05c  D0 ED       BNE $C04B      - A:22 X:88 Y:00 SP:f6 .V-B.... 1936340446
+******************************************************************************
+#1 (Trace  exec c04b)  130 043
+.C:c04b  E6 FE       INC $FE        - A:22 X:88 Y:00 SP:f6 .V-B.... 1936340449
+#1 (Trace  exec c04d)  130 048
+.C:c04d  20 25 C1    JSR $C125      - A:22 X:88 Y:00 SP:f6 .V-B.... 1936340454
+#1 (Trace  exec c125)  130 054
+.C:c125  E6 FB       INC $FB        - A:22 X:88 Y:00 SP:f4 .V-B.... 1936340460
+#1 (Trace  exec c127)  130 059
+.C:c127  D0 02       BNE $C12B      - A:22 X:88 Y:00 SP:f4 .V-B.... 1936340465
+#1 (Trace  exec c12b)  130 062
+.C:c12b  60          RTS            - A:22 X:88 Y:00 SP:f4 .V-B.... 1936340468
+#1 (Trace  exec c050)  131 005
+.C:c050  EA          NOP            - A:22 X:88 Y:00 SP:f6 .V-B.... 1936340474
+#1 (Trace  exec c051)  131 007
+.C:c051  A5 FD       LDA $FD        - A:22 X:88 Y:00 SP:f6 .V-B.... 1936340476
+#1 (Trace  exec c053)  131 010
+.C:c053  A0 00       LDY #$00       - A:88 X:88 Y:00 SP:f6 NV-B.... 1936340479
+#1 (Trace  exec c055)  131 055
+.C:c055  4C 0D C1    JMP $C10D      - A:88 X:88 Y:00 SP:f6 .V-B..Z. 1936340524
+#1 (Trace  exec c10d)  131 058
+.C:c10d  4C 2C C1    JMP $C12C      - A:88 X:88 Y:00 SP:f6 .V-B..Z. 1936340527
+#1 (Trace  exec c12c)  131 061
+.C:c12c  AA          TAX            - A:88 X:88 Y:00 SP:f6 .V-B..Z. 1936340530
+#1 (Trace  exec c12d)  132 000
+.C:c12d  B1 FB       LDA ($FB),Y    - A:88 X:88 Y:00 SP:f6 NV-B.... 1936340532
+#1 (Trace  exec c12f)  132 005
+.C:c12f  C9 22       CMP #$22       - A:00 X:88 Y:00 SP:f6 .V-B..Z. 1936340537
+#1 (Trace  exec c131)  132 007
+.C:c131  D0 06       BNE $C139      - A:00 X:88 Y:00 SP:f6 NV-B.... 1936340539
+#1 (Trace  exec c139)  132 010
+.C:c139  A5 02       LDA $02        - A:00 X:88 Y:00 SP:f6 NV-B.... 1936340542
+#1 (Trace  exec c13b)  132 013
+.C:c13b  D0 DA       BNE $C117      - A:00 X:88 Y:00 SP:f6 .V-B..Z. 1936340545
+#1 (Trace  exec c13d)  132 015
+.C:c13d  B1 FB       LDA ($FB),Y    - A:00 X:88 Y:00 SP:f6 .V-B..Z. 1936340547
+#1 (Trace  exec c13f)  132 020
+.C:c13f  C9 20       CMP #$20       - A:00 X:88 Y:00 SP:f6 .V-B..Z. 1936340552
+#1 (Trace  exec c141)  132 022
+.C:c141  D0 D4       BNE $C117      - A:00 X:88 Y:00 SP:f6 NV-B.... 1936340554
+#1 (Trace  exec c117)  132 025
+.C:c117  8A          TXA            - A:00 X:88 Y:00 SP:f6 NV-B.... 1936340557
+#1 (Trace  exec c118)  132 027
+.C:c118  71 FB       ADC ($FB),Y    - A:88 X:88 Y:00 SP:f6 NV-B.... 1936340559
+#1 (Trace  exec c11a)  132 032
+.C:c11a  45 FE       EOR $FE        - A:88 X:88 Y:00 SP:f6 N.-B.... 1936340564
+#1 (Trace  exec c11c)  132 035
+.C:c11c  AA          TAX            - A:8C X:88 Y:00 SP:f6 N.-B.... 1936340567
+#1 (Trace  exec c11d)  132 037
+.C:c11d  8A          TXA            - A:8C X:8C Y:00 SP:f6 N.-B.... 1936340569
+#1 (Trace  exec c11e)  132 039
+.C:c11e  4C 58 C0    JMP $C058      - A:8C X:8C Y:00 SP:f6 N.-B.... 1936340571
+#1 (Trace  exec c058)  132 042
+.C:c058  85 FD       STA $FD        - A:8C X:8C Y:00 SP:f6 N.-B.... 1936340574
+#1 (Trace  exec c05a)  132 045
+.C:c05a  B1 FB       LDA ($FB),Y    - A:8C X:8C Y:00 SP:f6 N.-B.... 1936340577
+#1 (Trace  exec c05c)  132 050
+.C:c05c  D0 ED       BNE $C04B      - A:00 X:8C Y:00 SP:f6 ..-B..Z. 1936340582
+#1 (Trace  exec c05e)  132 052
+.C:c05e  A5 FD       LDA $FD        - A:00 X:8C Y:00 SP:f6 ..-B..Z. 1936340584
+#1 (Trace  exec c060)  132 055
+.C:c060  29 F0       AND #$F0       - A:8C X:8C Y:00 SP:f6 N.-B.... 1936340587
+#1 (Trace  exec c062)  132 057
+.C:c062  4A          LSR A          - A:80 X:8C Y:00 SP:f6 N.-B.... 1936340589
+#1 (Trace  exec c063)  132 059
+.C:c063  4A          LSR A          - A:40 X:8C Y:00 SP:f6 ..-B.... 1936340591
+#1 (Trace  exec c064)  132 061
+.C:c064  4A          LSR A          - A:20 X:8C Y:00 SP:f6 ..-B.... 1936340593
+#1 (Trace  exec c065)  133 000
+.C:c065  4A          LSR A          - A:10 X:8C Y:00 SP:f6 ..-B.... 1936340595
+#1 (Trace  exec c066)  133 002
+.C:c066  18          CLC            - A:08 X:8C Y:00 SP:f6 ..-B.... 1936340597
+#1 (Trace  exec c067)  133 004
+.C:c067  69 41       ADC #$41       - A:08 X:8C Y:00 SP:f6 ..-B.... 1936340599
+#1 (Trace  exec c069)  133 006
+.C:c069  20 D2 FF    JSR $FFD2      - A:49 X:8C Y:00 SP:f6 ..-B.... 1936340601
+#1 (Trace  exec c06c)  137 032
+.C:c06c  A5 FD       LDA $FD        - A:49 X:8C Y:00 SP:f6 ..-B.... 1936340879
+#1 (Trace  exec c06e)  137 035
+.C:c06e  29 0F       AND #$0F       - A:8C X:8C Y:00 SP:f6 N.-B.... 1936340882
+#1 (Trace  exec c070)  137 037
+.C:c070  18          CLC            - A:0C X:8C Y:00 SP:f6 ..-B.... 1936340884
+#1 (Trace  exec c071)  137 039
+.C:c071  69 41       ADC #$41       - A:0C X:8C Y:00 SP:f6 ..-B.... 1936340886
+#1 (Trace  exec c073)  137 041
+.C:c073  20 D2 FF    JSR $FFD2      - A:4D X:8C Y:00 SP:f6 ..-B.... 1936340888
+#1 (Trace  exec c076)  142 047
+.C:c076  A9 0D       LDA #$0D       - A:4D X:8C Y:00 SP:f6 ..-B.... 1936341209
+#1 (Trace  exec c078)  142 049
+.C:c078  20 DC C0    JSR $C0DC      - A:0D X:8C Y:00 SP:f6 ..-B.... 1936341211
+#1 (Trace  exec c0dc)  142 055
+.C:c0dc  20 D2 FF    JSR $FFD2      - A:0D X:8C Y:00 SP:f4 ..-B.... 1936341217
+#1 (Trace  exec c0df)  146 034
+.C:c0df  AD 8D 02    LDA $028D      - A:0D X:8C Y:00 SP:f4 ..-B.... 1936341448
+#1 (Trace  exec c0e2)  146 038
+.C:c0e2  29 01       AND #$01       - A:00 X:8C Y:00 SP:f4 ..-B..Z. 1936341452
+#1 (Trace  exec c0e4)  146 040
+.C:c0e4  D0 F9       BNE $C0DF      - A:00 X:8C Y:00 SP:f4 ..-B..Z. 1936341454
+#1 (Trace  exec c0e6)  146 042
+.C:c0e6  60          RTS            - A:00 X:8C Y:00 SP:f4 ..-B..Z. 1936341456
+#1 (Trace  exec c07b)  146 048
+.C:c07b  E6 3F       INC $3F        - A:00 X:8C Y:00 SP:f6 ..-B..Z. 1936341462
+#1 (Trace  exec c07d)  146 053
+.C:c07d  D0 02       BNE $C081      - A:00 X:8C Y:00 SP:f6 ..-B.... 1936341467
+#1 (Trace  exec c081)  146 056
+.C:c081  E6 FB       INC $FB        - A:00 X:8C Y:00 SP:f6 ..-B.... 1936341470
+#1 (Trace  exec c083)  146 061
+.C:c083  D0 02       BNE $C087      - A:00 X:8C Y:00 SP:f6 ..-B.... 1936341475
+#1 (Trace  exec c087)  147 001
+.C:c087  4C 0B C0    JMP $C00B      - A:00 X:8C Y:00 SP:f6 ..-B.... 1936341478
+#1 (Trace  exec c00b)  147 004
+.C:c00b  A0 00       LDY #$00       - A:00 X:8C Y:00 SP:f6 ..-B.... 1936341481
+#1 (Trace  exec c00d)  147 006
+.C:c00d  84 FE       STY $FE        - A:00 X:8C Y:00 SP:f6 ..-B..Z. 1936341483
+#1 (Trace  exec c00f)  147 009
+.C:c00f  20 25 C1    JSR $C125      - A:00 X:8C Y:00 SP:f6 ..-B..Z. 1936341486
+#1 (Trace  exec c125)  147 058
+.C:c125  E6 FB       INC $FB        - A:00 X:8C Y:00 SP:f4 ..-B..Z. 1936341535
+#1 (Trace  exec c127)  148 000
+.C:c127  D0 02       BNE $C12B      - A:00 X:8C Y:00 SP:f4 ..-B.... 1936341540
+#1 (Trace  exec c12b)  148 003
+.C:c12b  60          RTS            - A:00 X:8C Y:00 SP:f4 ..-B.... 1936341543
+#1 (Trace  exec c012)  148 009
+.C:c012  EA          NOP            - A:00 X:8C Y:00 SP:f6 ..-B.... 1936341549
+#1 (Trace  exec c013)  148 011
+.C:c013  B1 FB       LDA ($FB),Y    - A:00 X:8C Y:00 SP:f6 ..-B.... 1936341551
+#1 (Trace  exec c015)  148 016
+.C:c015  D0 03       BNE $C01A      - A:00 X:8C Y:00 SP:f6 ..-B..Z. 1936341556
+#1 (Trace  exec c017)  148 018
+.C:c017  4C 8A C0    JMP $C08A      - A:00 X:8C Y:00 SP:f6 ..-B..Z. 1936341558
+#1 (Trace  exec c08a)  148 021
+.C:c08a  A9 99       LDA #$99       - A:00 X:8C Y:00 SP:f6 ..-B..Z. 1936341561
+#1 (Trace  exec c08c)  148 023
+.C:c08c  A0 C0       LDY #$C0       - A:99 X:8C Y:00 SP:f6 N.-B.... 1936341563
+#1 (Trace  exec c08e)  148 025
+.C:c08e  20 1E AB    JSR $AB1E      - A:99 X:8C Y:C0 SP:f6 N.-B.... 1936341565
+#1 (Trace  exec c091)  222 016
+.C:c091  A6 3F       LDX $3F        - A:20 X:00 Y:07 SP:f6 ..-...ZC 1936346218
+#1 (Trace  exec c093)  222 019
+.C:c093  A5 40       LDA $40        - A:20 X:01 Y:07 SP:f6 ..-....C 1936346221
+#1 (Trace  exec c095)  222 022
+.C:c095  4C E7 C0    JMP $C0E7      - A:00 X:01 Y:07 SP:f6 ..-...ZC 1936346224
+#1 (Trace  exec c0e7)  222 025
+.C:c0e7  20 CD BD    JSR $BDCD      - A:00 X:01 Y:07 SP:f6 ..-...ZC 1936346227
+#1 (Trace  exec c0ea)  047 023
+.C:c0ea  A9 0D       LDA #$0D       - A:31 X:00 Y:01 SP:f6 ..-B..ZC 1936354856
+#1 (Trace  exec c0ec)  047 025
+.C:c0ec  20 D2 FF    JSR $FFD2      - A:0D X:00 Y:01 SP:f6 ..-B...C 1936354858
+#1 (Trace  exec c0ef)  051 004
+.C:c0ef  20 CC FF    JSR $FFCC      - A:0D X:00 Y:01 SP:f6 ..-B.... 1936355089
+#1 (Trace  exec c0f2)  052 023
+.C:c0f2  A9 04       LDA #$04       - A:00 X:03 Y:01 SP:f6 ..-B..ZC 1936355171
+#1 (Trace  exec c0f4)  052 025
+.C:c0f4  4C C3 FF    JMP $FFC3      - A:04 X:03 Y:01 SP:f6 ..-B...C 1936355173
+(C:$e5d4) 

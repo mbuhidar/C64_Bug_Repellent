@@ -1,0 +1,1012 @@
+VICE monitor trace (trace exec c000 c150) of Bug Repellent executing
+on basic line:  10 PRINT"HI W"
+
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93151764
+#2 (Trace  exec c0b3)  031 029
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93151766
+#2 (Trace  exec c0b5)  031 031
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93151768
+#2 (Trace  exec c0ac)  031 034
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93151771
+#2 (Trace  exec c0af)  032 001
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93151801
+#2 (Trace  exec c0b1)  032 003
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93151803
+#2 (Trace  exec c0b3)  032 005
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93151805
+#2 (Trace  exec c0b5)  032 007
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93151807
+#2 (Trace  exec c0ac)  032 010
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93151810
+#2 (Trace  exec c0af)  032 040
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93151840
+#2 (Trace  exec c0b1)  032 042
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93151842
+#2 (Trace  exec c0b3)  032 044
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93151844
+#2 (Trace  exec c0b5)  032 046
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93151846
+#2 (Trace  exec c0ac)  032 049
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93151849
+#2 (Trace  exec c0af)  033 016
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93151879
+#2 (Trace  exec c0b1)  033 018
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93151881
+#2 (Trace  exec c0b3)  033 020
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93151883
+#2 (Trace  exec c0b5)  033 022
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93151885
+#2 (Trace  exec c0ac)  033 025
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93151888
+#2 (Trace  exec c0af)  033 055
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93151918
+#2 (Trace  exec c0b1)  033 057
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93151920
+#2 (Trace  exec c0b3)  033 059
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93151922
+#2 (Trace  exec c0b5)  033 061
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93151924
+#2 (Trace  exec c0ac)  034 001
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93151927
+#2 (Trace  exec c0af)  034 031
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93151957
+#2 (Trace  exec c0b1)  034 033
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93151959
+#2 (Trace  exec c0b3)  034 035
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93151961
+#2 (Trace  exec c0b5)  034 037
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93151963
+#2 (Trace  exec c0ac)  034 040
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93151966
+#2 (Trace  exec c0af)  035 007
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93151996
+#2 (Trace  exec c0b1)  035 009
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93151998
+#2 (Trace  exec c0b3)  035 011
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152000
+#2 (Trace  exec c0b5)  035 013
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152002
+#2 (Trace  exec c0ac)  035 016
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152005
+#2 (Trace  exec c0af)  035 046
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152035
+#2 (Trace  exec c0b1)  035 048
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152037
+#2 (Trace  exec c0b3)  035 050
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152039
+#2 (Trace  exec c0b5)  035 052
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152041
+#2 (Trace  exec c0ac)  035 055
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152044
+#2 (Trace  exec c0af)  036 022
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152074
+#2 (Trace  exec c0b1)  036 024
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152076
+#2 (Trace  exec c0b3)  036 026
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152078
+#2 (Trace  exec c0b5)  036 028
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152080
+#2 (Trace  exec c0ac)  036 031
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152083
+#2 (Trace  exec c0af)  036 061
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152113
+#2 (Trace  exec c0b1)  037 000
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152115
+#2 (Trace  exec c0b3)  037 002
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152117
+#2 (Trace  exec c0b5)  037 004
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152119
+#2 (Trace  exec c0ac)  037 007
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152122
+#2 (Trace  exec c0af)  037 037
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152152
+#2 (Trace  exec c0b1)  037 039
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152154
+#2 (Trace  exec c0b3)  037 041
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152156
+#2 (Trace  exec c0b5)  037 043
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152158
+#2 (Trace  exec c0ac)  037 046
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152161
+#2 (Trace  exec c0af)  038 013
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152191
+#2 (Trace  exec c0b1)  038 015
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152193
+#2 (Trace  exec c0b3)  038 017
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152195
+#2 (Trace  exec c0b5)  038 019
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152197
+#2 (Trace  exec c0ac)  038 022
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152200
+#2 (Trace  exec c0af)  038 052
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152230
+#2 (Trace  exec c0b1)  038 054
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152232
+#2 (Trace  exec c0b3)  038 056
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152234
+#2 (Trace  exec c0b5)  038 058
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152236
+#2 (Trace  exec c0ac)  038 061
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152239
+#2 (Trace  exec c0af)  039 028
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152269
+#2 (Trace  exec c0b1)  039 030
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152271
+#2 (Trace  exec c0b3)  039 032
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152273
+#2 (Trace  exec c0b5)  039 034
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152275
+#2 (Trace  exec c0ac)  039 037
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152278
+#2 (Trace  exec c0af)  040 004
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152308
+#2 (Trace  exec c0b1)  040 006
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152310
+#2 (Trace  exec c0b3)  040 008
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152312
+#2 (Trace  exec c0b5)  040 010
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152314
+#2 (Trace  exec c0ac)  040 013
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152317
+#2 (Trace  exec c0af)  040 043
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152347
+#2 (Trace  exec c0b1)  040 045
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152349
+#2 (Trace  exec c0b3)  040 047
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152351
+#2 (Trace  exec c0b5)  040 049
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152353
+#2 (Trace  exec c0ac)  040 052
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152356
+#2 (Trace  exec c0af)  041 019
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152386
+#2 (Trace  exec c0b1)  041 021
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152388
+#2 (Trace  exec c0b3)  041 023
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152390
+#2 (Trace  exec c0b5)  041 025
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152392
+#2 (Trace  exec c0ac)  041 028
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152395
+#2 (Trace  exec c0af)  041 058
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152425
+#2 (Trace  exec c0b1)  041 060
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152427
+#2 (Trace  exec c0b3)  041 062
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152429
+#2 (Trace  exec c0b5)  042 001
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152431
+#2 (Trace  exec c0ac)  042 004
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152434
+#2 (Trace  exec c0af)  042 034
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152464
+#2 (Trace  exec c0b1)  042 036
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152466
+#2 (Trace  exec c0b3)  042 038
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152468
+#2 (Trace  exec c0b5)  042 040
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152470
+#2 (Trace  exec c0ac)  042 043
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152473
+#2 (Trace  exec c0af)  043 010
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152503
+#2 (Trace  exec c0b1)  043 012
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152505
+#2 (Trace  exec c0b3)  043 014
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152507
+#2 (Trace  exec c0b5)  043 016
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152509
+#2 (Trace  exec c0ac)  043 019
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152512
+#2 (Trace  exec c0af)  043 049
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152542
+#2 (Trace  exec c0b1)  043 051
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152544
+#2 (Trace  exec c0b3)  043 053
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152546
+#2 (Trace  exec c0b5)  043 055
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152548
+#2 (Trace  exec c0ac)  043 058
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152551
+#2 (Trace  exec c0af)  044 025
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152581
+#2 (Trace  exec c0b1)  044 027
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152583
+#2 (Trace  exec c0b3)  044 029
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152585
+#2 (Trace  exec c0b5)  044 031
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152587
+#2 (Trace  exec c0ac)  044 034
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152590
+#2 (Trace  exec c0af)  045 001
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152620
+#2 (Trace  exec c0b1)  045 003
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152622
+#2 (Trace  exec c0b3)  045 005
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152624
+#2 (Trace  exec c0b5)  045 007
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152626
+#2 (Trace  exec c0ac)  045 010
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152629
+#2 (Trace  exec c0af)  045 040
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152659
+#2 (Trace  exec c0b1)  045 042
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152661
+#2 (Trace  exec c0b3)  045 044
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152663
+#2 (Trace  exec c0b5)  045 046
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152665
+#2 (Trace  exec c0ac)  045 049
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152668
+#2 (Trace  exec c0af)  046 016
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152698
+#2 (Trace  exec c0b1)  046 018
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152700
+#2 (Trace  exec c0b3)  046 020
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152702
+#2 (Trace  exec c0b5)  046 022
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152704
+#2 (Trace  exec c0ac)  046 025
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152707
+#2 (Trace  exec c0af)  046 055
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152737
+#2 (Trace  exec c0b1)  046 057
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152739
+#2 (Trace  exec c0b3)  046 059
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152741
+#2 (Trace  exec c0b5)  046 061
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152743
+#2 (Trace  exec c0ac)  047 001
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152746
+#2 (Trace  exec c0af)  047 031
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152776
+#2 (Trace  exec c0b1)  047 033
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152778
+#2 (Trace  exec c0b3)  047 035
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152780
+#2 (Trace  exec c0b5)  047 037
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152782
+#2 (Trace  exec c0ac)  047 040
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152785
+#2 (Trace  exec c0af)  048 007
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152815
+#2 (Trace  exec c0b1)  048 009
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152817
+#2 (Trace  exec c0b3)  048 011
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152819
+#2 (Trace  exec c0b5)  048 013
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152821
+#2 (Trace  exec c0ac)  048 016
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152824
+#2 (Trace  exec c0af)  048 046
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152854
+#2 (Trace  exec c0b1)  048 048
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152856
+#2 (Trace  exec c0b3)  048 050
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152858
+#2 (Trace  exec c0b5)  048 052
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152860
+#2 (Trace  exec c0ac)  048 055
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152863
+#2 (Trace  exec c0af)  049 022
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152893
+#2 (Trace  exec c0b1)  049 024
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152895
+#2 (Trace  exec c0b3)  049 026
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152897
+#2 (Trace  exec c0b5)  049 028
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152899
+#2 (Trace  exec c0ac)  049 031
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152902
+#2 (Trace  exec c0af)  049 061
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152932
+#2 (Trace  exec c0b1)  050 000
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152934
+#2 (Trace  exec c0b3)  050 002
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152936
+#2 (Trace  exec c0b5)  050 004
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152938
+#2 (Trace  exec c0ac)  050 007
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152941
+#2 (Trace  exec c0af)  050 037
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93152971
+#2 (Trace  exec c0b1)  050 039
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93152973
+#2 (Trace  exec c0b3)  050 041
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93152975
+#2 (Trace  exec c0b5)  050 043
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93152977
+#2 (Trace  exec c0ac)  050 046
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93152980
+#2 (Trace  exec c0af)  051 056
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93153053
+#2 (Trace  exec c0b1)  051 058
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93153055
+#2 (Trace  exec c0b3)  051 060
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93153057
+#2 (Trace  exec c0b5)  051 062
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93153059
+#2 (Trace  exec c0ac)  052 002
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93153062
+#2 (Trace  exec c0af)  052 032
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93153092
+#2 (Trace  exec c0b1)  052 034
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93153094
+#2 (Trace  exec c0b3)  052 036
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93153096
+#2 (Trace  exec c0b5)  052 038
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93153098
+#2 (Trace  exec c0ac)  052 041
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93153101
+#2 (Trace  exec c0af)  053 008
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93153131
+#2 (Trace  exec c0b1)  053 010
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93153133
+#2 (Trace  exec c0b3)  053 012
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93153135
+#2 (Trace  exec c0b5)  053 014
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93153137
+#2 (Trace  exec c0ac)  053 017
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93153140
+#2 (Trace  exec c0af)  053 047
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93153170
+#2 (Trace  exec c0b1)  053 049
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93153172
+#2 (Trace  exec c0b3)  053 051
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93153174
+#2 (Trace  exec c0b5)  053 053
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93153176
+#2 (Trace  exec c0ac)  053 056
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93153179
+#2 (Trace  exec c0af)  054 023
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93153209
+#2 (Trace  exec c0b1)  054 025
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93153211
+#2 (Trace  exec c0b3)  054 027
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93153213
+#2 (Trace  exec c0b5)  054 029
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93153215
+#2 (Trace  exec c0ac)  054 032
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93153218
+#2 (Trace  exec c0af)  082 050
+.C:c0af  C9 53       CMP #$53       - A:00 X:00 Y:15 SP:f4 ..-...Z.   93155000
+#2 (Trace  exec c0b1)  082 052
+.C:c0b1  F0 06       BEQ $C0B9      - A:00 X:00 Y:15 SP:f4 N.-.....   93155002
+#2 (Trace  exec c0b3)  082 054
+.C:c0b3  C9 50       CMP #$50       - A:00 X:00 Y:15 SP:f4 N.-.....   93155004
+#2 (Trace  exec c0b5)  082 056
+.C:c0b5  D0 F5       BNE $C0AC      - A:00 X:00 Y:15 SP:f4 N.-.....   93155006
+#2 (Trace  exec c0ac)  082 059
+.C:c0ac  20 E4 FF    JSR $FFE4      - A:00 X:00 Y:15 SP:f4 N.-.....   93155009
+#2 (Trace  exec c0af)  084 041
+.C:c0af  C9 53       CMP #$53       - A:53 X:01 Y:53 SP:f4 ..-.....   93155117
+#2 (Trace  exec c0b1)  084 043
+.C:c0b1  F0 06       BEQ $C0B9      - A:53 X:01 Y:53 SP:f4 ..-...ZC   93155119
+#2 (Trace  exec c0b9)  084 046
+.C:c0b9  20 D2 FF    JSR $FFD2      - A:53 X:01 Y:53 SP:f4 ..-...ZC   93155122
+#2 (Trace  exec c0bc)  089 009
+.C:c0bc  A9 04       LDA #$04       - A:53 X:01 Y:53 SP:f4 ..-.....   93155400
+#2 (Trace  exec c0be)  089 011
+.C:c0be  A6 FE       LDX $FE        - A:04 X:01 Y:53 SP:f4 ..-.....   93155402
+#2 (Trace  exec c0c0)  089 014
+.C:c0c0  A0 FF       LDY #$FF       - A:04 X:03 Y:53 SP:f4 ..-.....   93155405
+#2 (Trace  exec c0c2)  089 016
+.C:c0c2  20 BA FF    JSR $FFBA      - A:04 X:03 Y:FF SP:f4 N.-.....   93155407
+#2 (Trace  exec c0c5)  089 040
+.C:c0c5  A9 00       LDA #$00       - A:04 X:03 Y:FF SP:f4 N.-.....   93155431
+#2 (Trace  exec c0c7)  089 042
+.C:c0c7  85 3F       STA $3F        - A:00 X:03 Y:FF SP:f4 ..-...Z.   93155433
+#2 (Trace  exec c0c9)  089 045
+.C:c0c9  85 40       STA $40        - A:00 X:03 Y:FF SP:f4 ..-...Z.   93155436
+#2 (Trace  exec c0cb)  089 048
+.C:c0cb  85 02       STA $02        - A:00 X:03 Y:FF SP:f4 ..-...Z.   93155439
+#2 (Trace  exec c0cd)  089 051
+.C:c0cd  20 BD FF    JSR $FFBD      - A:00 X:03 Y:FF SP:f4 ..-...Z.   93155442
+#2 (Trace  exec c0d0)  090 012
+.C:c0d0  20 C0 FF    JSR $FFC0      - A:00 X:03 Y:FF SP:f4 ..-...Z.   93155466
+#2 (Trace  exec c0d3)  092 033
+.C:c0d3  A6 FE       LDX $FE        - A:03 X:00 Y:FF SP:f4 ..-...Z.   93155613
+#2 (Trace  exec c0d5)  092 036
+.C:c0d5  20 C9 FF    JSR $FFC9      - A:03 X:03 Y:FF SP:f4 ..-.....   93155616
+#2 (Trace  exec c0d8)  094 052
+.C:c0d8  4C 49 C1    JMP $C149      - A:03 X:03 Y:00 SP:f4 ..-....C   93155758
+#2 (Trace  exec c149)  094 055
+.C:c149  A9 0D       LDA #$0D       - A:03 X:03 Y:00 SP:f4 ..-....C   93155761
+#2 (Trace  exec c14b)  094 057
+.C:c14b  4C D2 FF    JMP $FFD2      - A:0D X:03 Y:00 SP:f4 ..-....C   93155763
+#2 (Trace  exec c003)  098 033
+.C:c003  A5 2B       LDA $2B        - A:0D X:03 Y:00 SP:f6 ..-.....   93155991
+#2 (Trace  exec c005)  098 036
+.C:c005  85 FB       STA $FB        - A:01 X:03 Y:00 SP:f6 ..-.....   93155994
+#2 (Trace  exec c007)  098 039
+.C:c007  A5 2C       LDA $2C        - A:01 X:03 Y:00 SP:f6 ..-.....   93155997
+#2 (Trace  exec c009)  098 042
+.C:c009  85 FC       STA $FC        - A:08 X:03 Y:00 SP:f6 ..-.....   93156000
+#2 (Trace  exec c00b)  098 045
+.C:c00b  A0 00       LDY #$00       - A:08 X:03 Y:00 SP:f6 ..-.....   93156003
+#2 (Trace  exec c00d)  098 047
+.C:c00d  84 FE       STY $FE        - A:08 X:03 Y:00 SP:f6 ..-...Z.   93156005
+#2 (Trace  exec c00f)  098 050
+.C:c00f  20 25 C1    JSR $C125      - A:08 X:03 Y:00 SP:f6 ..-...Z.   93156008
+#2 (Trace  exec c125)  098 056
+.C:c125  E6 FB       INC $FB        - A:08 X:03 Y:00 SP:f4 ..-...Z.   93156014
+#2 (Trace  exec c127)  098 061
+.C:c127  D0 02       BNE $C12B      - A:08 X:03 Y:00 SP:f4 ..-.....   93156019
+#2 (Trace  exec c12b)  099 001
+.C:c12b  60          RTS            - A:08 X:03 Y:00 SP:f4 ..-.....   93156022
+#2 (Trace  exec c012)  099 007
+.C:c012  EA          NOP            - A:08 X:03 Y:00 SP:f6 ..-.....   93156028
+#2 (Trace  exec c013)  099 009
+.C:c013  B1 FB       LDA ($FB),Y    - A:08 X:03 Y:00 SP:f6 ..-.....   93156030
+#2 (Trace  exec c015)  099 057
+.C:c015  D0 03       BNE $C01A      - A:08 X:03 Y:00 SP:f6 ..-.....   93156078
+#2 (Trace  exec c01a)  099 060
+.C:c01a  E6 FB       INC $FB        - A:08 X:03 Y:00 SP:f6 ..-.....   93156081
+#2 (Trace  exec c01c)  100 002
+.C:c01c  D0 02       BNE $C020      - A:08 X:03 Y:00 SP:f6 ..-.....   93156086
+#2 (Trace  exec c020)  100 005
+.C:c020  4C 2B C0    JMP $C02B      - A:08 X:03 Y:00 SP:f6 ..-.....   93156089
+#2 (Trace  exec c02b)  100 008
+.C:c02b  A9 23       LDA #$23       - A:08 X:03 Y:00 SP:f6 ..-.....   93156092
+#2 (Trace  exec c02d)  100 010
+.C:c02d  A0 C0       LDY #$C0       - A:23 X:03 Y:00 SP:f6 ..-.....   93156094
+#2 (Trace  exec c02f)  100 012
+.C:c02f  20 1E AB    JSR $AB1E      - A:23 X:03 Y:C0 SP:f6 N.-.....   93156096
+#2 (Trace  exec c032)  145 052
+.C:c032  A0 00       LDY #$00       - A:20 X:00 Y:07 SP:f6 ..-B..ZC   93158971
+#2 (Trace  exec c034)  145 054
+.C:c034  B1 FB       LDA ($FB),Y    - A:20 X:00 Y:00 SP:f6 ..-B..ZC   93158973
+#2 (Trace  exec c036)  145 059
+.C:c036  AA          TAX            - A:0A X:00 Y:00 SP:f6 ..-B...C   93158978
+#2 (Trace  exec c037)  145 061
+.C:c037  E6 FB       INC $FB        - A:0A X:0A Y:00 SP:f6 ..-B...C   93158980
+#2 (Trace  exec c039)  146 003
+.C:c039  D0 02       BNE $C03D      - A:0A X:0A Y:00 SP:f6 ..-B...C   93158985
+#2 (Trace  exec c03d)  146 006
+.C:c03d  B1 FB       LDA ($FB),Y    - A:0A X:0A Y:00 SP:f6 ..-B...C   93158988
+#2 (Trace  exec c03f)  146 011
+.C:c03f  20 CD BD    JSR $BDCD      - A:00 X:0A Y:00 SP:f6 ..-B..ZC   93158993
+#2 (Trace  exec c042)  286 055
+.C:c042  A9 3A       LDA #$3A       - A:30 X:00 Y:02 SP:f6 ..-B..ZC   93167857
+#2 (Trace  exec c044)  286 057
+.C:c044  20 D2 FF    JSR $FFD2      - A:3A X:00 Y:02 SP:f6 ..-B...C   93167859
+#2 (Trace  exec c047)  291 020
+.C:c047  A9 00       LDA #$00       - A:3A X:00 Y:02 SP:f6 ..-B....   93168137
+#2 (Trace  exec c049)  291 022
+.C:c049  85 FD       STA $FD        - A:00 X:00 Y:02 SP:f6 ..-B..Z.   93168139
+******************************************************************************
+#2 (Trace  exec c04b)  291 025
+.C:c04b  E6 FE       INC $FE        - A:00 X:00 Y:02 SP:f6 ..-B..Z.   93168142
+#2 (Trace  exec c04d)  291 030
+.C:c04d  20 25 C1    JSR $C125      - A:00 X:00 Y:02 SP:f6 ..-B....   93168147
+#2 (Trace  exec c125)  291 036
+.C:c125  E6 FB       INC $FB        - A:00 X:00 Y:02 SP:f4 ..-B....   93168153
+#2 (Trace  exec c127)  291 041
+.C:c127  D0 02       BNE $C12B      - A:00 X:00 Y:02 SP:f4 ..-B....   93168158
+#2 (Trace  exec c12b)  291 044
+.C:c12b  60          RTS            - A:00 X:00 Y:02 SP:f4 ..-B....   93168161
+#2 (Trace  exec c050)  291 050
+.C:c050  EA          NOP            - A:00 X:00 Y:02 SP:f6 ..-B....   93168167
+#2 (Trace  exec c051)  291 052
+.C:c051  A5 FD       LDA $FD        - A:00 X:00 Y:02 SP:f6 ..-B....   93168169
+#2 (Trace  exec c053)  291 055
+.C:c053  A0 00       LDY #$00       - A:00 X:00 Y:02 SP:f6 ..-B..Z.   93168172
+#2 (Trace  exec c055)  291 057
+.C:c055  4C 0D C1    JMP $C10D      - A:00 X:00 Y:00 SP:f6 ..-B..Z.   93168174
+#2 (Trace  exec c10d)  291 060
+.C:c10d  4C 2C C1    JMP $C12C      - A:00 X:00 Y:00 SP:f6 ..-B..Z.   93168177
+#2 (Trace  exec c12c)  292 000
+.C:c12c  AA          TAX            - A:00 X:00 Y:00 SP:f6 ..-B..Z.   93168180
+#2 (Trace  exec c12d)  292 002
+.C:c12d  B1 FB       LDA ($FB),Y    - A:00 X:00 Y:00 SP:f6 ..-B..Z.   93168182
+#2 (Trace  exec c12f)  292 007
+.C:c12f  C9 22       CMP #$22       - A:99 X:00 Y:00 SP:f6 N.-B....   93168187
+#2 (Trace  exec c131)  292 009
+.C:c131  D0 06       BNE $C139      - A:99 X:00 Y:00 SP:f6 ..-B...C   93168189
+#2 (Trace  exec c139)  292 012
+.C:c139  A5 02       LDA $02        - A:99 X:00 Y:00 SP:f6 ..-B...C   93168192
+#2 (Trace  exec c13b)  292 015
+.C:c13b  D0 DA       BNE $C117      - A:00 X:00 Y:00 SP:f6 ..-B..ZC   93168195
+#2 (Trace  exec c13d)  292 017
+.C:c13d  B1 FB       LDA ($FB),Y    - A:00 X:00 Y:00 SP:f6 ..-B..ZC   93168197
+#2 (Trace  exec c13f)  292 022
+.C:c13f  C9 20       CMP #$20       - A:99 X:00 Y:00 SP:f6 N.-B...C   93168202
+#2 (Trace  exec c141)  292 024
+.C:c141  D0 D4       BNE $C117      - A:99 X:00 Y:00 SP:f6 ..-B...C   93168204
+#2 (Trace  exec c117)  292 027
+.C:c117  8A          TXA            - A:99 X:00 Y:00 SP:f6 ..-B...C   93168207
+#2 (Trace  exec c118)  292 029
+.C:c118  71 FB       ADC ($FB),Y    - A:00 X:00 Y:00 SP:f6 ..-B..ZC   93168209
+#2 (Trace  exec c11a)  292 034
+.C:c11a  45 FE       EOR $FE        - A:9A X:00 Y:00 SP:f6 N.-B....   93168214
+#2 (Trace  exec c11c)  292 037
+.C:c11c  AA          TAX            - A:9B X:00 Y:00 SP:f6 N.-B....   93168217
+#2 (Trace  exec c11d)  292 039
+.C:c11d  8A          TXA            - A:9B X:9B Y:00 SP:f6 N.-B....   93168219
+#2 (Trace  exec c11e)  292 041
+.C:c11e  4C 58 C0    JMP $C058      - A:9B X:9B Y:00 SP:f6 N.-B....   93168221
+#2 (Trace  exec c058)  292 044
+.C:c058  85 FD       STA $FD        - A:9B X:9B Y:00 SP:f6 N.-B....   93168224
+#2 (Trace  exec c05a)  292 047
+.C:c05a  B1 FB       LDA ($FB),Y    - A:9B X:9B Y:00 SP:f6 N.-B....   93168227
+#2 (Trace  exec c05c)  292 052
+.C:c05c  D0 ED       BNE $C04B      - A:99 X:9B Y:00 SP:f6 N.-B....   93168232
+******************************************************************************
+#2 (Trace  exec c04b)  292 055
+.C:c04b  E6 FE       INC $FE        - A:99 X:9B Y:00 SP:f6 N.-B....   93168235
+#2 (Trace  exec c04d)  292 060
+.C:c04d  20 25 C1    JSR $C125      - A:99 X:9B Y:00 SP:f6 ..-B....   93168240
+#2 (Trace  exec c125)  293 003
+.C:c125  E6 FB       INC $FB        - A:99 X:9B Y:00 SP:f4 ..-B....   93168246
+#2 (Trace  exec c127)  293 008
+.C:c127  D0 02       BNE $C12B      - A:99 X:9B Y:00 SP:f4 ..-B....   93168251
+#2 (Trace  exec c12b)  293 011
+.C:c12b  60          RTS            - A:99 X:9B Y:00 SP:f4 ..-B....   93168254
+#2 (Trace  exec c050)  293 017
+.C:c050  EA          NOP            - A:99 X:9B Y:00 SP:f6 ..-B....   93168260
+#2 (Trace  exec c051)  293 019
+.C:c051  A5 FD       LDA $FD        - A:99 X:9B Y:00 SP:f6 ..-B....   93168262
+#2 (Trace  exec c053)  293 022
+.C:c053  A0 00       LDY #$00       - A:9B X:9B Y:00 SP:f6 N.-B....   93168265
+#2 (Trace  exec c055)  293 024
+.C:c055  4C 0D C1    JMP $C10D      - A:9B X:9B Y:00 SP:f6 ..-B..Z.   93168267
+#2 (Trace  exec c10d)  293 027
+.C:c10d  4C 2C C1    JMP $C12C      - A:9B X:9B Y:00 SP:f6 ..-B..Z.   93168270
+#2 (Trace  exec c12c)  293 030
+.C:c12c  AA          TAX            - A:9B X:9B Y:00 SP:f6 ..-B..Z.   93168273
+#2 (Trace  exec c12d)  293 032
+.C:c12d  B1 FB       LDA ($FB),Y    - A:9B X:9B Y:00 SP:f6 N.-B....   93168275
+#2 (Trace  exec c12f)  293 037
+.C:c12f  C9 22       CMP #$22       - A:22 X:9B Y:00 SP:f6 ..-B....   93168280
+#2 (Trace  exec c131)  293 039
+.C:c131  D0 06       BNE $C139      - A:22 X:9B Y:00 SP:f6 ..-B..ZC   93168282
+#2 (Trace  exec c133)  293 041
+.C:c133  A5 02       LDA $02        - A:22 X:9B Y:00 SP:f6 ..-B..ZC   93168284
+#2 (Trace  exec c135)  293 044
+.C:c135  49 FF       EOR #$FF       - A:00 X:9B Y:00 SP:f6 ..-B..ZC   93168287
+#2 (Trace  exec c137)  293 046
+.C:c137  85 02       STA $02        - A:FF X:9B Y:00 SP:f6 N.-B...C   93168289
+#2 (Trace  exec c139)  293 049
+.C:c139  A5 02       LDA $02        - A:FF X:9B Y:00 SP:f6 N.-B...C   93168292
+#2 (Trace  exec c13b)  293 052
+.C:c13b  D0 DA       BNE $C117      - A:FF X:9B Y:00 SP:f6 N.-B...C   93168295
+#2 (Trace  exec c117)  293 055
+.C:c117  8A          TXA            - A:FF X:9B Y:00 SP:f6 N.-B...C   93168298
+#2 (Trace  exec c118)  293 057
+.C:c118  71 FB       ADC ($FB),Y    - A:9B X:9B Y:00 SP:f6 N.-B...C   93168300
+#2 (Trace  exec c11a)  293 062
+.C:c11a  45 FE       EOR $FE        - A:BE X:9B Y:00 SP:f6 N.-B....   93168305
+#2 (Trace  exec c11c)  294 002
+.C:c11c  AA          TAX            - A:BC X:9B Y:00 SP:f6 N.-B....   93168308
+#2 (Trace  exec c11d)  294 004
+.C:c11d  8A          TXA            - A:BC X:BC Y:00 SP:f6 N.-B....   93168310
+#2 (Trace  exec c11e)  294 006
+.C:c11e  4C 58 C0    JMP $C058      - A:BC X:BC Y:00 SP:f6 N.-B....   93168312
+#2 (Trace  exec c058)  294 009
+.C:c058  85 FD       STA $FD        - A:BC X:BC Y:00 SP:f6 N.-B....   93168315
+#2 (Trace  exec c05a)  294 012
+.C:c05a  B1 FB       LDA ($FB),Y    - A:BC X:BC Y:00 SP:f6 N.-B....   93168318
+#2 (Trace  exec c05c)  294 017
+.C:c05c  D0 ED       BNE $C04B      - A:22 X:BC Y:00 SP:f6 ..-B....   93168323
+******************************************************************************
+#2 (Trace  exec c04b)  294 020
+.C:c04b  E6 FE       INC $FE        - A:22 X:BC Y:00 SP:f6 ..-B....   93168326
+#2 (Trace  exec c04d)  294 025
+.C:c04d  20 25 C1    JSR $C125      - A:22 X:BC Y:00 SP:f6 ..-B....   93168331
+#2 (Trace  exec c125)  294 031
+.C:c125  E6 FB       INC $FB        - A:22 X:BC Y:00 SP:f4 ..-B....   93168337
+#2 (Trace  exec c127)  294 036
+.C:c127  D0 02       BNE $C12B      - A:22 X:BC Y:00 SP:f4 ..-B....   93168342
+#2 (Trace  exec c12b)  294 039
+.C:c12b  60          RTS            - A:22 X:BC Y:00 SP:f4 ..-B....   93168345
+#2 (Trace  exec c050)  294 045
+.C:c050  EA          NOP            - A:22 X:BC Y:00 SP:f6 ..-B....   93168351
+#2 (Trace  exec c051)  294 047
+.C:c051  A5 FD       LDA $FD        - A:22 X:BC Y:00 SP:f6 ..-B....   93168353
+#2 (Trace  exec c053)  294 050
+.C:c053  A0 00       LDY #$00       - A:BC X:BC Y:00 SP:f6 N.-B....   93168356
+#2 (Trace  exec c055)  294 052
+.C:c055  4C 0D C1    JMP $C10D      - A:BC X:BC Y:00 SP:f6 ..-B..Z.   93168358
+#2 (Trace  exec c10d)  294 055
+.C:c10d  4C 2C C1    JMP $C12C      - A:BC X:BC Y:00 SP:f6 ..-B..Z.   93168361
+#2 (Trace  exec c12c)  294 058
+.C:c12c  AA          TAX            - A:BC X:BC Y:00 SP:f6 ..-B..Z.   93168364
+#2 (Trace  exec c12d)  294 060
+.C:c12d  B1 FB       LDA ($FB),Y    - A:BC X:BC Y:00 SP:f6 N.-B....   93168366
+#2 (Trace  exec c12f)  295 002
+.C:c12f  C9 22       CMP #$22       - A:48 X:BC Y:00 SP:f6 ..-B....   93168371
+#2 (Trace  exec c131)  295 004
+.C:c131  D0 06       BNE $C139      - A:48 X:BC Y:00 SP:f6 ..-B...C   93168373
+#2 (Trace  exec c139)  295 007
+.C:c139  A5 02       LDA $02        - A:48 X:BC Y:00 SP:f6 ..-B...C   93168376
+#2 (Trace  exec c13b)  295 010
+.C:c13b  D0 DA       BNE $C117      - A:FF X:BC Y:00 SP:f6 N.-B...C   93168379
+#2 (Trace  exec c117)  295 013
+.C:c117  8A          TXA            - A:FF X:BC Y:00 SP:f6 N.-B...C   93168382
+#2 (Trace  exec c118)  295 015
+.C:c118  71 FB       ADC ($FB),Y    - A:BC X:BC Y:00 SP:f6 N.-B...C   93168384
+#2 (Trace  exec c11a)  295 020
+.C:c11a  45 FE       EOR $FE        - A:05 X:BC Y:00 SP:f6 ..-B...C   93168389
+#2 (Trace  exec c11c)  295 023
+.C:c11c  AA          TAX            - A:06 X:BC Y:00 SP:f6 ..-B...C   93168392
+#2 (Trace  exec c11d)  295 025
+.C:c11d  8A          TXA            - A:06 X:06 Y:00 SP:f6 ..-B...C   93168394
+#2 (Trace  exec c11e)  295 027
+.C:c11e  4C 58 C0    JMP $C058      - A:06 X:06 Y:00 SP:f6 ..-B...C   93168396
+#2 (Trace  exec c058)  295 030
+.C:c058  85 FD       STA $FD        - A:06 X:06 Y:00 SP:f6 ..-B...C   93168399
+#2 (Trace  exec c05a)  295 033
+.C:c05a  B1 FB       LDA ($FB),Y    - A:06 X:06 Y:00 SP:f6 ..-B...C   93168402
+#2 (Trace  exec c05c)  295 038
+.C:c05c  D0 ED       BNE $C04B      - A:48 X:06 Y:00 SP:f6 ..-B...C   93168407
+******************************************************************************
+#2 (Trace  exec c04b)  295 041
+.C:c04b  E6 FE       INC $FE        - A:48 X:06 Y:00 SP:f6 ..-B...C   93168410
+#2 (Trace  exec c04d)  295 046
+.C:c04d  20 25 C1    JSR $C125      - A:48 X:06 Y:00 SP:f6 ..-B...C   93168415
+#2 (Trace  exec c125)  295 052
+.C:c125  E6 FB       INC $FB        - A:48 X:06 Y:00 SP:f4 ..-B...C   93168421
+#2 (Trace  exec c127)  295 057
+.C:c127  D0 02       BNE $C12B      - A:48 X:06 Y:00 SP:f4 ..-B...C   93168426
+#2 (Trace  exec c12b)  295 060
+.C:c12b  60          RTS            - A:48 X:06 Y:00 SP:f4 ..-B...C   93168429
+#2 (Trace  exec c050)  296 003
+.C:c050  EA          NOP            - A:48 X:06 Y:00 SP:f6 ..-B...C   93168435
+#2 (Trace  exec c051)  296 005
+.C:c051  A5 FD       LDA $FD        - A:48 X:06 Y:00 SP:f6 ..-B...C   93168437
+#2 (Trace  exec c053)  296 008
+.C:c053  A0 00       LDY #$00       - A:06 X:06 Y:00 SP:f6 ..-B...C   93168440
+#2 (Trace  exec c055)  296 010
+.C:c055  4C 0D C1    JMP $C10D      - A:06 X:06 Y:00 SP:f6 ..-B..ZC   93168442
+#2 (Trace  exec c10d)  296 013
+.C:c10d  4C 2C C1    JMP $C12C      - A:06 X:06 Y:00 SP:f6 ..-B..ZC   93168445
+#2 (Trace  exec c12c)  296 016
+.C:c12c  AA          TAX            - A:06 X:06 Y:00 SP:f6 ..-B..ZC   93168448
+#2 (Trace  exec c12d)  296 018
+.C:c12d  B1 FB       LDA ($FB),Y    - A:06 X:06 Y:00 SP:f6 ..-B...C   93168450
+#2 (Trace  exec c12f)  296 023
+.C:c12f  C9 22       CMP #$22       - A:49 X:06 Y:00 SP:f6 ..-B...C   93168455
+#2 (Trace  exec c131)  296 025
+.C:c131  D0 06       BNE $C139      - A:49 X:06 Y:00 SP:f6 ..-B...C   93168457
+#2 (Trace  exec c139)  296 028
+.C:c139  A5 02       LDA $02        - A:49 X:06 Y:00 SP:f6 ..-B...C   93168460
+#2 (Trace  exec c13b)  296 031
+.C:c13b  D0 DA       BNE $C117      - A:FF X:06 Y:00 SP:f6 N.-B...C   93168463
+#2 (Trace  exec c117)  296 034
+.C:c117  8A          TXA            - A:FF X:06 Y:00 SP:f6 N.-B...C   93168466
+#2 (Trace  exec c118)  296 036
+.C:c118  71 FB       ADC ($FB),Y    - A:06 X:06 Y:00 SP:f6 ..-B...C   93168468
+#2 (Trace  exec c11a)  296 041
+.C:c11a  45 FE       EOR $FE        - A:50 X:06 Y:00 SP:f6 ..-B....   93168473
+#2 (Trace  exec c11c)  296 044
+.C:c11c  AA          TAX            - A:54 X:06 Y:00 SP:f6 ..-B....   93168476
+#2 (Trace  exec c11d)  296 046
+.C:c11d  8A          TXA            - A:54 X:54 Y:00 SP:f6 ..-B....   93168478
+#2 (Trace  exec c11e)  296 048
+.C:c11e  4C 58 C0    JMP $C058      - A:54 X:54 Y:00 SP:f6 ..-B....   93168480
+#2 (Trace  exec c058)  296 051
+.C:c058  85 FD       STA $FD        - A:54 X:54 Y:00 SP:f6 ..-B....   93168483
+#2 (Trace  exec c05a)  296 054
+.C:c05a  B1 FB       LDA ($FB),Y    - A:54 X:54 Y:00 SP:f6 ..-B....   93168486
+#2 (Trace  exec c05c)  296 059
+.C:c05c  D0 ED       BNE $C04B      - A:49 X:54 Y:00 SP:f6 ..-B....   93168491
+******************************************************************************
+#2 (Trace  exec c04b)  296 062
+.C:c04b  E6 FE       INC $FE        - A:49 X:54 Y:00 SP:f6 ..-B....   93168494
+#2 (Trace  exec c04d)  297 004
+.C:c04d  20 25 C1    JSR $C125      - A:49 X:54 Y:00 SP:f6 ..-B....   93168499
+#2 (Trace  exec c125)  297 010
+.C:c125  E6 FB       INC $FB        - A:49 X:54 Y:00 SP:f4 ..-B....   93168505
+#2 (Trace  exec c127)  297 015
+.C:c127  D0 02       BNE $C12B      - A:49 X:54 Y:00 SP:f4 ..-B....   93168510
+#2 (Trace  exec c12b)  297 018
+.C:c12b  60          RTS            - A:49 X:54 Y:00 SP:f4 ..-B....   93168513
+#2 (Trace  exec c050)  297 024
+.C:c050  EA          NOP            - A:49 X:54 Y:00 SP:f6 ..-B....   93168519
+#2 (Trace  exec c051)  297 026
+.C:c051  A5 FD       LDA $FD        - A:49 X:54 Y:00 SP:f6 ..-B....   93168521
+#2 (Trace  exec c053)  297 029
+.C:c053  A0 00       LDY #$00       - A:54 X:54 Y:00 SP:f6 ..-B....   93168524
+#2 (Trace  exec c055)  297 031
+.C:c055  4C 0D C1    JMP $C10D      - A:54 X:54 Y:00 SP:f6 ..-B..Z.   93168526
+#2 (Trace  exec c10d)  297 034
+.C:c10d  4C 2C C1    JMP $C12C      - A:54 X:54 Y:00 SP:f6 ..-B..Z.   93168529
+#2 (Trace  exec c12c)  297 037
+.C:c12c  AA          TAX            - A:54 X:54 Y:00 SP:f6 ..-B..Z.   93168532
+#2 (Trace  exec c12d)  297 039
+.C:c12d  B1 FB       LDA ($FB),Y    - A:54 X:54 Y:00 SP:f6 ..-B....   93168534
+#2 (Trace  exec c12f)  297 044
+.C:c12f  C9 22       CMP #$22       - A:20 X:54 Y:00 SP:f6 ..-B....   93168539
+#2 (Trace  exec c131)  297 046
+.C:c131  D0 06       BNE $C139      - A:20 X:54 Y:00 SP:f6 N.-B....   93168541
+#2 (Trace  exec c139)  297 049
+.C:c139  A5 02       LDA $02        - A:20 X:54 Y:00 SP:f6 N.-B....   93168544
+#2 (Trace  exec c13b)  297 052
+.C:c13b  D0 DA       BNE $C117      - A:FF X:54 Y:00 SP:f6 N.-B....   93168547
+#2 (Trace  exec c117)  297 055
+.C:c117  8A          TXA            - A:FF X:54 Y:00 SP:f6 N.-B....   93168550
+#2 (Trace  exec c118)  297 057
+.C:c118  71 FB       ADC ($FB),Y    - A:54 X:54 Y:00 SP:f6 ..-B....   93168552
+#2 (Trace  exec c11a)  297 062
+.C:c11a  45 FE       EOR $FE        - A:74 X:54 Y:00 SP:f6 ..-B....   93168557
+#2 (Trace  exec c11c)  298 002
+.C:c11c  AA          TAX            - A:71 X:54 Y:00 SP:f6 ..-B....   93168560
+#2 (Trace  exec c11d)  298 004
+.C:c11d  8A          TXA            - A:71 X:71 Y:00 SP:f6 ..-B....   93168562
+#2 (Trace  exec c11e)  298 006
+.C:c11e  4C 58 C0    JMP $C058      - A:71 X:71 Y:00 SP:f6 ..-B....   93168564
+#2 (Trace  exec c058)  298 009
+.C:c058  85 FD       STA $FD        - A:71 X:71 Y:00 SP:f6 ..-B....   93168567
+#2 (Trace  exec c05a)  298 012
+.C:c05a  B1 FB       LDA ($FB),Y    - A:71 X:71 Y:00 SP:f6 ..-B....   93168570
+#2 (Trace  exec c05c)  298 017
+.C:c05c  D0 ED       BNE $C04B      - A:20 X:71 Y:00 SP:f6 ..-B....   93168575
+******************************************************************************
+#2 (Trace  exec c04b)  298 020
+.C:c04b  E6 FE       INC $FE        - A:20 X:71 Y:00 SP:f6 ..-B....   93168578
+#2 (Trace  exec c04d)  298 025
+.C:c04d  20 25 C1    JSR $C125      - A:20 X:71 Y:00 SP:f6 ..-B....   93168583
+#2 (Trace  exec c125)  298 031
+.C:c125  E6 FB       INC $FB        - A:20 X:71 Y:00 SP:f4 ..-B....   93168589
+#2 (Trace  exec c127)  298 036
+.C:c127  D0 02       BNE $C12B      - A:20 X:71 Y:00 SP:f4 ..-B....   93168594
+#2 (Trace  exec c12b)  298 039
+.C:c12b  60          RTS            - A:20 X:71 Y:00 SP:f4 ..-B....   93168597
+#2 (Trace  exec c050)  298 045
+.C:c050  EA          NOP            - A:20 X:71 Y:00 SP:f6 ..-B....   93168603
+#2 (Trace  exec c051)  298 047
+.C:c051  A5 FD       LDA $FD        - A:20 X:71 Y:00 SP:f6 ..-B....   93168605
+#2 (Trace  exec c053)  298 050
+.C:c053  A0 00       LDY #$00       - A:71 X:71 Y:00 SP:f6 ..-B....   93168608
+#2 (Trace  exec c055)  298 052
+.C:c055  4C 0D C1    JMP $C10D      - A:71 X:71 Y:00 SP:f6 ..-B..Z.   93168610
+#2 (Trace  exec c10d)  298 055
+.C:c10d  4C 2C C1    JMP $C12C      - A:71 X:71 Y:00 SP:f6 ..-B..Z.   93168613
+#2 (Trace  exec c12c)  298 058
+.C:c12c  AA          TAX            - A:71 X:71 Y:00 SP:f6 ..-B..Z.   93168616
+#2 (Trace  exec c12d)  298 060
+.C:c12d  B1 FB       LDA ($FB),Y    - A:71 X:71 Y:00 SP:f6 ..-B....   93168618
+#2 (Trace  exec c12f)  299 002
+.C:c12f  C9 22       CMP #$22       - A:57 X:71 Y:00 SP:f6 ..-B....   93168623
+#2 (Trace  exec c131)  299 004
+.C:c131  D0 06       BNE $C139      - A:57 X:71 Y:00 SP:f6 ..-B...C   93168625
+#2 (Trace  exec c139)  299 007
+.C:c139  A5 02       LDA $02        - A:57 X:71 Y:00 SP:f6 ..-B...C   93168628
+#2 (Trace  exec c13b)  299 010
+.C:c13b  D0 DA       BNE $C117      - A:FF X:71 Y:00 SP:f6 N.-B...C   93168631
+#2 (Trace  exec c117)  299 013
+.C:c117  8A          TXA            - A:FF X:71 Y:00 SP:f6 N.-B...C   93168634
+#2 (Trace  exec c118)  299 015
+.C:c118  71 FB       ADC ($FB),Y    - A:71 X:71 Y:00 SP:f6 ..-B...C   93168636
+#2 (Trace  exec c11a)  299 020
+.C:c11a  45 FE       EOR $FE        - A:C9 X:71 Y:00 SP:f6 NV-B....   93168641
+#2 (Trace  exec c11c)  299 023
+.C:c11c  AA          TAX            - A:CF X:71 Y:00 SP:f6 NV-B....   93168644
+#2 (Trace  exec c11d)  299 025
+.C:c11d  8A          TXA            - A:CF X:CF Y:00 SP:f6 NV-B....   93168646
+#2 (Trace  exec c11e)  299 027
+.C:c11e  4C 58 C0    JMP $C058      - A:CF X:CF Y:00 SP:f6 NV-B....   93168648
+#2 (Trace  exec c058)  299 030
+.C:c058  85 FD       STA $FD        - A:CF X:CF Y:00 SP:f6 NV-B....   93168651
+#2 (Trace  exec c05a)  299 033
+.C:c05a  B1 FB       LDA ($FB),Y    - A:CF X:CF Y:00 SP:f6 NV-B....   93168654
+#2 (Trace  exec c05c)  299 038
+.C:c05c  D0 ED       BNE $C04B      - A:57 X:CF Y:00 SP:f6 .V-B....   93168659
+******************************************************************************
+#2 (Trace  exec c04b)  299 041
+.C:c04b  E6 FE       INC $FE        - A:57 X:CF Y:00 SP:f6 .V-B....   93168662
+#2 (Trace  exec c04d)  299 046
+.C:c04d  20 25 C1    JSR $C125      - A:57 X:CF Y:00 SP:f6 .V-B....   93168667
+#2 (Trace  exec c125)  299 052
+.C:c125  E6 FB       INC $FB        - A:57 X:CF Y:00 SP:f4 .V-B....   93168673
+#2 (Trace  exec c127)  299 057
+.C:c127  D0 02       BNE $C12B      - A:57 X:CF Y:00 SP:f4 .V-B....   93168678
+#2 (Trace  exec c12b)  299 060
+.C:c12b  60          RTS            - A:57 X:CF Y:00 SP:f4 .V-B....   93168681
+#2 (Trace  exec c050)  300 003
+.C:c050  EA          NOP            - A:57 X:CF Y:00 SP:f6 .V-B....   93168687
+#2 (Trace  exec c051)  300 005
+.C:c051  A5 FD       LDA $FD        - A:57 X:CF Y:00 SP:f6 .V-B....   93168689
+#2 (Trace  exec c053)  300 008
+.C:c053  A0 00       LDY #$00       - A:CF X:CF Y:00 SP:f6 NV-B....   93168692
+#2 (Trace  exec c055)  300 010
+.C:c055  4C 0D C1    JMP $C10D      - A:CF X:CF Y:00 SP:f6 .V-B..Z.   93168694
+#2 (Trace  exec c10d)  300 013
+.C:c10d  4C 2C C1    JMP $C12C      - A:CF X:CF Y:00 SP:f6 .V-B..Z.   93168697
+#2 (Trace  exec c12c)  300 016
+.C:c12c  AA          TAX            - A:CF X:CF Y:00 SP:f6 .V-B..Z.   93168700
+#2 (Trace  exec c12d)  300 018
+.C:c12d  B1 FB       LDA ($FB),Y    - A:CF X:CF Y:00 SP:f6 NV-B....   93168702
+#2 (Trace  exec c12f)  300 023
+.C:c12f  C9 22       CMP #$22       - A:22 X:CF Y:00 SP:f6 .V-B....   93168707
+#2 (Trace  exec c131)  300 025
+.C:c131  D0 06       BNE $C139      - A:22 X:CF Y:00 SP:f6 .V-B..ZC   93168709
+#2 (Trace  exec c133)  300 027
+.C:c133  A5 02       LDA $02        - A:22 X:CF Y:00 SP:f6 .V-B..ZC   93168711
+#2 (Trace  exec c135)  300 030
+.C:c135  49 FF       EOR #$FF       - A:FF X:CF Y:00 SP:f6 NV-B...C   93168714
+#2 (Trace  exec c137)  300 032
+.C:c137  85 02       STA $02        - A:00 X:CF Y:00 SP:f6 .V-B..ZC   93168716
+#2 (Trace  exec c139)  300 035
+.C:c139  A5 02       LDA $02        - A:00 X:CF Y:00 SP:f6 .V-B..ZC   93168719
+#2 (Trace  exec c13b)  300 038
+.C:c13b  D0 DA       BNE $C117      - A:00 X:CF Y:00 SP:f6 .V-B..ZC   93168722
+#2 (Trace  exec c13d)  300 040
+.C:c13d  B1 FB       LDA ($FB),Y    - A:00 X:CF Y:00 SP:f6 .V-B..ZC   93168724
+#2 (Trace  exec c13f)  300 045
+.C:c13f  C9 20       CMP #$20       - A:22 X:CF Y:00 SP:f6 .V-B...C   93168729
+#2 (Trace  exec c141)  300 047
+.C:c141  D0 D4       BNE $C117      - A:22 X:CF Y:00 SP:f6 .V-B...C   93168731
+#2 (Trace  exec c117)  300 050
+.C:c117  8A          TXA            - A:22 X:CF Y:00 SP:f6 .V-B...C   93168734
+#2 (Trace  exec c118)  300 052
+.C:c118  71 FB       ADC ($FB),Y    - A:CF X:CF Y:00 SP:f6 NV-B...C   93168736
+#2 (Trace  exec c11a)  300 057
+.C:c11a  45 FE       EOR $FE        - A:F2 X:CF Y:00 SP:f6 N.-B....   93168741
+#2 (Trace  exec c11c)  300 060
+.C:c11c  AA          TAX            - A:F5 X:CF Y:00 SP:f6 N.-B....   93168744
+#2 (Trace  exec c11d)  300 062
+.C:c11d  8A          TXA            - A:F5 X:F5 Y:00 SP:f6 N.-B....   93168746
+#2 (Trace  exec c11e)  301 001
+.C:c11e  4C 58 C0    JMP $C058      - A:F5 X:F5 Y:00 SP:f6 N.-B....   93168748
+#2 (Trace  exec c058)  301 004
+.C:c058  85 FD       STA $FD        - A:F5 X:F5 Y:00 SP:f6 N.-B....   93168751
+#2 (Trace  exec c05a)  301 007
+.C:c05a  B1 FB       LDA ($FB),Y    - A:F5 X:F5 Y:00 SP:f6 N.-B....   93168754
+#2 (Trace  exec c05c)  301 012
+.C:c05c  D0 ED       BNE $C04B      - A:22 X:F5 Y:00 SP:f6 ..-B....   93168759
+******************************************************************************
+#2 (Trace  exec c04b)  301 015
+.C:c04b  E6 FE       INC $FE        - A:22 X:F5 Y:00 SP:f6 ..-B....   93168762
+#2 (Trace  exec c04d)  301 020
+.C:c04d  20 25 C1    JSR $C125      - A:22 X:F5 Y:00 SP:f6 ..-B....   93168767
+#2 (Trace  exec c125)  301 026
+.C:c125  E6 FB       INC $FB        - A:22 X:F5 Y:00 SP:f4 ..-B....   93168773
+#2 (Trace  exec c127)  301 031
+.C:c127  D0 02       BNE $C12B      - A:22 X:F5 Y:00 SP:f4 ..-B....   93168778
+#2 (Trace  exec c12b)  301 034
+.C:c12b  60          RTS            - A:22 X:F5 Y:00 SP:f4 ..-B....   93168781
+#2 (Trace  exec c050)  301 040
+.C:c050  EA          NOP            - A:22 X:F5 Y:00 SP:f6 ..-B....   93168787
+#2 (Trace  exec c051)  301 042
+.C:c051  A5 FD       LDA $FD        - A:22 X:F5 Y:00 SP:f6 ..-B....   93168789
+#2 (Trace  exec c053)  301 045
+.C:c053  A0 00       LDY #$00       - A:F5 X:F5 Y:00 SP:f6 N.-B....   93168792
+#2 (Trace  exec c055)  301 047
+.C:c055  4C 0D C1    JMP $C10D      - A:F5 X:F5 Y:00 SP:f6 ..-B..Z.   93168794
+#2 (Trace  exec c10d)  301 050
+.C:c10d  4C 2C C1    JMP $C12C      - A:F5 X:F5 Y:00 SP:f6 ..-B..Z.   93168797
+#2 (Trace  exec c12c)  301 053
+.C:c12c  AA          TAX            - A:F5 X:F5 Y:00 SP:f6 ..-B..Z.   93168800
+#2 (Trace  exec c12d)  301 055
+.C:c12d  B1 FB       LDA ($FB),Y    - A:F5 X:F5 Y:00 SP:f6 N.-B....   93168802
+#2 (Trace  exec c12f)  301 060
+.C:c12f  C9 22       CMP #$22       - A:00 X:F5 Y:00 SP:f6 ..-B..Z.   93168807
+#2 (Trace  exec c131)  301 062
+.C:c131  D0 06       BNE $C139      - A:00 X:F5 Y:00 SP:f6 N.-B....   93168809
+#2 (Trace  exec c139)  302 002
+.C:c139  A5 02       LDA $02        - A:00 X:F5 Y:00 SP:f6 N.-B....   93168812
+#2 (Trace  exec c13b)  302 005
+.C:c13b  D0 DA       BNE $C117      - A:00 X:F5 Y:00 SP:f6 ..-B..Z.   93168815
+#2 (Trace  exec c13d)  302 007
+.C:c13d  B1 FB       LDA ($FB),Y    - A:00 X:F5 Y:00 SP:f6 ..-B..Z.   93168817
+#2 (Trace  exec c13f)  302 012
+.C:c13f  C9 20       CMP #$20       - A:00 X:F5 Y:00 SP:f6 ..-B..Z.   93168822
+#2 (Trace  exec c141)  302 014
+.C:c141  D0 D4       BNE $C117      - A:00 X:F5 Y:00 SP:f6 N.-B....   93168824
+#2 (Trace  exec c117)  302 017
+.C:c117  8A          TXA            - A:00 X:F5 Y:00 SP:f6 N.-B....   93168827
+#2 (Trace  exec c118)  302 019
+.C:c118  71 FB       ADC ($FB),Y    - A:F5 X:F5 Y:00 SP:f6 N.-B....   93168829
+#2 (Trace  exec c11a)  302 024
+.C:c11a  45 FE       EOR $FE        - A:F5 X:F5 Y:00 SP:f6 N.-B....   93168834
+#2 (Trace  exec c11c)  302 027
+.C:c11c  AA          TAX            - A:FD X:F5 Y:00 SP:f6 N.-B....   93168837
+#2 (Trace  exec c11d)  302 029
+.C:c11d  8A          TXA            - A:FD X:FD Y:00 SP:f6 N.-B....   93168839
+#2 (Trace  exec c11e)  302 031
+.C:c11e  4C 58 C0    JMP $C058      - A:FD X:FD Y:00 SP:f6 N.-B....   93168841
+#2 (Trace  exec c058)  302 034
+.C:c058  85 FD       STA $FD        - A:FD X:FD Y:00 SP:f6 N.-B....   93168844
+#2 (Trace  exec c05a)  302 037
+.C:c05a  B1 FB       LDA ($FB),Y    - A:FD X:FD Y:00 SP:f6 N.-B....   93168847
+#2 (Trace  exec c05c)  302 042
+.C:c05c  D0 ED       BNE $C04B      - A:00 X:FD Y:00 SP:f6 ..-B..Z.   93168852
+#2 (Trace  exec c05e)  302 044
+.C:c05e  A5 FD       LDA $FD        - A:00 X:FD Y:00 SP:f6 ..-B..Z.   93168854
+#2 (Trace  exec c060)  302 047
+.C:c060  29 F0       AND #$F0       - A:FD X:FD Y:00 SP:f6 N.-B....   93168857
+#2 (Trace  exec c062)  302 049
+.C:c062  4A          LSR A          - A:F0 X:FD Y:00 SP:f6 N.-B....   93168859
+#2 (Trace  exec c063)  302 051
+.C:c063  4A          LSR A          - A:78 X:FD Y:00 SP:f6 ..-B....   93168861
+#2 (Trace  exec c064)  302 053
+.C:c064  4A          LSR A          - A:3C X:FD Y:00 SP:f6 ..-B....   93168863
+#2 (Trace  exec c065)  302 055
+.C:c065  4A          LSR A          - A:1E X:FD Y:00 SP:f6 ..-B....   93168865
+#2 (Trace  exec c066)  302 057
+.C:c066  18          CLC            - A:0F X:FD Y:00 SP:f6 ..-B....   93168867
+#2 (Trace  exec c067)  302 059
+.C:c067  69 41       ADC #$41       - A:0F X:FD Y:00 SP:f6 ..-B....   93168869
+#2 (Trace  exec c069)  302 061
+.C:c069  20 D2 FF    JSR $FFD2      - A:50 X:FD Y:00 SP:f6 ..-B....   93168871
+#2 (Trace  exec c06c)  307 024
+.C:c06c  A5 FD       LDA $FD        - A:50 X:FD Y:00 SP:f6 ..-B....   93169149
+#2 (Trace  exec c06e)  307 027
+.C:c06e  29 0F       AND #$0F       - A:FD X:FD Y:00 SP:f6 N.-B....   93169152
+#2 (Trace  exec c070)  307 029
+.C:c070  18          CLC            - A:0D X:FD Y:00 SP:f6 ..-B....   93169154
+#2 (Trace  exec c071)  307 031
+.C:c071  69 41       ADC #$41       - A:0D X:FD Y:00 SP:f6 ..-B....   93169156
+#2 (Trace  exec c073)  307 033
+.C:c073  20 D2 FF    JSR $FFD2      - A:4E X:FD Y:00 SP:f6 ..-B....   93169158
+#2 (Trace  exec c076)  311 059
+.C:c076  A9 0D       LDA #$0D       - A:4E X:FD Y:00 SP:f6 ..-B....   93169436
+#2 (Trace  exec c078)  311 061
+.C:c078  20 DC C0    JSR $C0DC      - A:0D X:FD Y:00 SP:f6 ..-B....   93169438
+#2 (Trace  exec c0dc)  000 004
+.C:c0dc  20 D2 FF    JSR $FFD2      - A:0D X:FD Y:00 SP:f4 ..-B....   93169444
+#2 (Trace  exec c0df)  029 014
+.C:c0df  AD 8D 02    LDA $028D      - A:0D X:FD Y:00 SP:f4 ..-.....   93171281
+#2 (Trace  exec c0e2)  029 018
+.C:c0e2  29 01       AND #$01       - A:00 X:FD Y:00 SP:f4 ..-...Z.   93171285
+#2 (Trace  exec c0e4)  029 020
+.C:c0e4  D0 F9       BNE $C0DF      - A:00 X:FD Y:00 SP:f4 ..-...Z.   93171287
+#2 (Trace  exec c0e6)  029 022
+.C:c0e6  60          RTS            - A:00 X:FD Y:00 SP:f4 ..-...Z.   93171289
+#2 (Trace  exec c07b)  029 028
+.C:c07b  E6 3F       INC $3F        - A:00 X:FD Y:00 SP:f6 ..-...Z.   93171295
+#2 (Trace  exec c07d)  029 033
+.C:c07d  D0 02       BNE $C081      - A:00 X:FD Y:00 SP:f6 ..-.....   93171300
+#2 (Trace  exec c081)  029 036
+.C:c081  E6 FB       INC $FB        - A:00 X:FD Y:00 SP:f6 ..-.....   93171303
+#2 (Trace  exec c083)  029 041
+.C:c083  D0 02       BNE $C087      - A:00 X:FD Y:00 SP:f6 ..-.....   93171308
+#2 (Trace  exec c087)  029 044
+.C:c087  4C 0B C0    JMP $C00B      - A:00 X:FD Y:00 SP:f6 ..-.....   93171311
+#2 (Trace  exec c00b)  029 047
+.C:c00b  A0 00       LDY #$00       - A:00 X:FD Y:00 SP:f6 ..-.....   93171314
+#2 (Trace  exec c00d)  029 049
+.C:c00d  84 FE       STY $FE        - A:00 X:FD Y:00 SP:f6 ..-...Z.   93171316
+#2 (Trace  exec c00f)  029 052
+.C:c00f  20 25 C1    JSR $C125      - A:00 X:FD Y:00 SP:f6 ..-...Z.   93171319
+#2 (Trace  exec c125)  029 058
+.C:c125  E6 FB       INC $FB        - A:00 X:FD Y:00 SP:f4 ..-...Z.   93171325
+#2 (Trace  exec c127)  030 000
+.C:c127  D0 02       BNE $C12B      - A:00 X:FD Y:00 SP:f4 ..-.....   93171330
+#2 (Trace  exec c12b)  030 003
+.C:c12b  60          RTS            - A:00 X:FD Y:00 SP:f4 ..-.....   93171333
+#2 (Trace  exec c012)  030 009
+.C:c012  EA          NOP            - A:00 X:FD Y:00 SP:f6 ..-.....   93171339
+#2 (Trace  exec c013)  030 011
+.C:c013  B1 FB       LDA ($FB),Y    - A:00 X:FD Y:00 SP:f6 ..-.....   93171341
+#2 (Trace  exec c015)  030 016
+.C:c015  D0 03       BNE $C01A      - A:00 X:FD Y:00 SP:f6 ..-...Z.   93171346
+#2 (Trace  exec c017)  030 018
+.C:c017  4C 8A C0    JMP $C08A      - A:00 X:FD Y:00 SP:f6 ..-...Z.   93171348
+#2 (Trace  exec c08a)  030 021
+.C:c08a  A9 99       LDA #$99       - A:00 X:FD Y:00 SP:f6 ..-...Z.   93171351
+#2 (Trace  exec c08c)  030 023
+.C:c08c  A0 C0       LDY #$C0       - A:99 X:FD Y:00 SP:f6 N.-.....   93171353
+#2 (Trace  exec c08e)  030 025
+.C:c08e  20 1E AB    JSR $AB1E      - A:99 X:FD Y:C0 SP:f6 N.-.....   93171355
+#2 (Trace  exec c091)  074 042
+.C:c091  A6 3F       LDX $3F        - A:20 X:00 Y:07 SP:f6 ..-B..ZC   93174144
+#2 (Trace  exec c093)  074 045
+.C:c093  A5 40       LDA $40        - A:20 X:01 Y:07 SP:f6 ..-B...C   93174147
+#2 (Trace  exec c095)  074 048
+.C:c095  4C E7 C0    JMP $C0E7      - A:00 X:01 Y:07 SP:f6 ..-B..ZC   93174150
+#2 (Trace  exec c0e7)  074 051
+.C:c0e7  20 CD BD    JSR $BDCD      - A:00 X:01 Y:07 SP:f6 ..-B..ZC   93174153
+#2 (Trace  exec c0ea)  222 042
+.C:c0ea  A9 0D       LDA #$0D       - A:31 X:00 Y:01 SP:f6 ..-B..ZC   93183468
+#2 (Trace  exec c0ec)  222 044
+.C:c0ec  20 D2 FF    JSR $FFD2      - A:0D X:00 Y:01 SP:f6 ..-B...C   93183470
+#2 (Trace  exec c0ef)  226 023
+.C:c0ef  20 CC FF    JSR $FFCC      - A:0D X:00 Y:01 SP:f6 ..-B....   93183701
+#2 (Trace  exec c0f2)  226 062
+.C:c0f2  A9 04       LDA #$04       - A:00 X:03 Y:01 SP:f6 ..-B..ZC   93183740
+#2 (Trace  exec c0f4)  227 001
+.C:c0f4  4C C3 FF    JMP $FFC3      - A:04 X:03 Y:01 SP:f6 ..-B...C   93183742
+(C:$e5d4) 
+

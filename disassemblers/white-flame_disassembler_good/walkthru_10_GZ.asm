@@ -174,29 +174,16 @@ A:00 X:00 Y:00
 $fb=05, $fc=08, $fd=00, $fe=01
 
     c12d:       lda ($fb),y
-                  a=$47 (value for G in "10 GZ"
+                  a=$47 (value for G in "10 G"
 
 A:47 X:00 Y:00
 $fb=05, $fc=08, $fd=00, $fe=01
 
-    c12f:       cmp #$22 ; compare with quote symbol "
-    c131:       bne Lc139 ; acc not #$22 so branch (ZF not 0)
-
-    c139: Lc139 lda $02
-        mem $02 contains #$00
-
-A:00 X:00 Y:00
-$fb=05, $fc=08, $fd=00, $fe=01
-
-    c13b:       bne Lc117 ; a is 0, so no branch
     c13d:       lda ($fb),y
-                  a=$47 (value for G in "10 GZ"
+                  a=$47 (value for G in "10 G"
 
 A:47 X:00 Y:00
 $fb=05, $fc=08, $fd=00, $fe=01
-
-    c13f:       cmp #$20 ; compare with space
-    c141:       bne Lc117
 
          c117: Lc117 txa
            a=$00
@@ -251,120 +238,33 @@ c055:       jmp Lc10d
 
     c12c: Lc12c tax
     c12d:       lda ($fb),y
-                  a=$5a (value for Z in "10 GZ"
-A:5A X:46 Y:00
-$fb=06, $fc=08, $fd=46, $fe=02
-
-    c12f:       cmp #$22 ; compare with quote symbol "
-    c131:       bne Lc139 ; not equal so branch
-
-    c139: Lc139 lda $02
-                  a=$00
-    c13b:       bne Lc117 ; a is 0, don't branch
-
+                  a=$00 (value for end of "10 G"
 A:00 X:46 Y:00
 $fb=06, $fc=08, $fd=46, $fe=02
 
-c13d:       lda ($fb),y ; a=$5a
-c13f:       cmp #$20
-c141:       bne Lc117 ; not equal, so branch
+c13d:       lda ($fb),y ; a=$00
 
          c117: Lc117 txa
            a=$46
          c118:       adc ($fb),y
-           a=$5a+$46=$a0
+           a=$00+$46=$46
          c11a:       eor $fe
-           $a0 xor $02 -> $a2
+           $46 xor $02 -> $44
          c11c:       tax
-           x=$a2
+           x=$44
          c11d: Lc11d txa
-           a=$a2
+           a=$44
 
-A:A2 X:A2 Y:00
+A:44 X:44 Y:00
 $fb=06, $fc=08, $fd=46, $fe=02
 
          c11e:       jmp Lc058
 
 c058: Lc058 sta $fd
-          $fd=#$a2
+          $fd=#$44
 
-A:A2 X:A2 Y:00
-$fb=06, $fc=08, $fd=A2, $fe=02
-
-c05a:       lda ($fb),y
-          a=$5a
-
-c05c:       bne Lc04b
-
-**************************************************************************
-
-c04b: Lc04b inc $fe
-
-A:5A X:A2 Y:00
-$fb=06, $fc=08, $fd=A2, $fe=03
-
-c04d:       jsr Sc125
-
-  c125: Sc125 inc $fb ; increment BASIC pointer low byte to next character
-  c127:       bne Lc12b ; if low byte is not zero, return
-  c129:       inc $fc ; if low byte is zero, increment high byte and return
-
-A:5A X:A2 Y:00
-$fb=07, $fc=08, $fd=A2, $fe=03
-
-  c12b: Lc12b rts
-
-c050:       nop
-c051:       lda $fd
-c053:       ldy #$00
-c055:       jmp Lc10d
-
-A:A2 X:A2 Y:00
-$fb=07, $fc=08, $fd=A2, $fe=03
-
-    c10d: Lc10d jmp Lc12c
-
-    c12c: Lc12c tax
-    c12d:       lda ($fb),y
-                  a=$00 (value for end of "10 GZ"
-A:00 X:A2 Y:00
-$fb=07, $fc=08, $fd=A2, $fe=03
-
-    c12f:       cmp #$22 ; compare with quote symbol "
-    c131:       bne Lc139 ; not equal so branch
-
-    c139: Lc139 lda $02
-                  a=$00
-    c13b:       bne Lc117 ; a is 0, don't branch
-
-A:00 X:A2 Y:00
-$fb=07, $fc=08, $fd=A2, $fe=03
-
-c13d:       lda ($fb),y ; a=$00
-c13f:       cmp #$20
-c141:       bne Lc117 ; not equal, so branch
-
-         c117: Lc117 txa
-           a=$a2
-         c118:       adc ($fb),y
-           a=$a2+$00=$a2
-         c11a:       eor $fe
-           $a2 xor $03 -> $a1
-         c11c:       tax
-           x=$a1
-         c11d: Lc11d txa
-           a=$a1
-
-A:A1 X:A1 Y:00
-$fb=07, $fc=08, $fd=A2, $fe=03
-
-         c11e:       jmp Lc058
-
-c058: Lc058 sta $fd
-          $fd=#$a1
-
-A:A1 X:A1 Y:00
-$fb=07, $fc=08, $fd=A1, $fe=03
+A:44 X:44 Y:00
+$fb=06, $fc=08, $fd=44, $fe=02
 
 c05a:       lda ($fb),y
           a=$00
@@ -373,24 +273,24 @@ c05c:       bne Lc04b ; a is zero so no branch
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A:00 X:A1 Y:00
-$fb=07, $fc=08, $fd=A1, $fe=03
+A:44 X:44 Y:00
+$fb=06, $fc=08, $fd=44, $fe=02
 
 c05e:       lda $fd
-              a=#$a1  ; (should be #$a5 to work)!!!
-c060:       and #$f0 ; get high nibble of #$a1 -> #$a0
-              a=$a0
+              a=#$44  ; (should be #$XX to work)!!!
+c060:       and #$f0 ; get high nibble of #$44 -> #$a4
+              a=$a40
 c062:       lsr a
 c063:       lsr a
 c064:       lsr a
 c065:       lsr a
 c066:       clc ; clear carry flag
-                a=$0a
+                a=$04
 c067:       adc #$41
-                a=$0a + $41 => $4b
+                a=$0a + $41 => $45
 
-A:4B X:A1 Y:00
-$fb=07, $fc=08, $fd=A1, $fe=03
+A:04 X:44 Y:00
+$fb=06, $fc=08, $fd=44, $fe=02
 
 c069:       jsr kCHROUT ; should be $4b for K - check!
 c06c:       lda $fd ; #$A1
