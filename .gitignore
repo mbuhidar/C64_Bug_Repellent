@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 # Other directories
-/reference
+reference/
+disassemblers/
