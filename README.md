@@ -8,9 +8,9 @@ lines that had errors.
 There were three versions of Bug Repellent during the
 history of Ahoy magazine.  
 
-Version 1 first appeared in Issue 4 and ended in Issue 5.
-Version 2 first appeared in Issue 6 and ended in Issue 40.
-Version 3 from Issue 41 to the end of publication.
+- Version 1 first appeared in Issue 4 and ended in Issue 5.
+- Version 2 first appeared in Issue 6 and ended in Issue 40.
+- Version 3 from Issue 41 to the end of publication.
 
 Code extensions:
 filename.ahoy: verbatim text as typed in from magazine  
