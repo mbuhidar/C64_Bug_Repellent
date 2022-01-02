@@ -448,10 +448,9 @@ def main(argv=None):
     ]
     
     # Write binary file compatible with Commodore computers or emulators
-    bin_file = 'repellent_asm.prg'
+    bin_file = 'repellent_asm2.prg'
     if check_overwrite(bin_file):
         write_binary(bin_file, out_list)
 
 if __name__ == '__main__':
     sys.exit(main())
-
