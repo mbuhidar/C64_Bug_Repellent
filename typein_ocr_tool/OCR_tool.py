@@ -9,4 +9,4 @@ import pytesseract
 # Example tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract'
 
 # Simple image to string
-print(pytesseract.image_to_string(Image.open('BR3_140_340.png')))
+print(pytesseract.image_to_string(Image.open('BR3_350_420.png')))
