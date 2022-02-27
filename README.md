@@ -13,8 +13,12 @@ history of Ahoy magazine.
 - Version 3 from Issue 41 (May87) until the end of publication
 
 Code extensions:
-filename.ahoy: verbatim text as typed in from magazine  
-filename.prg:  program tokenized for C64 
+- filename.ahoy: verbatim text as typed in from magazine  
+- filename.prg:  program tokenized for C64 
+
+Programs were entered, error-checked, and converted for C64
+using 'retro-typein-tools' available via
+'pip3 install retro-typein-tools' for Python 3.6 or later.
 
 Excerpts from the magazines below:
 
