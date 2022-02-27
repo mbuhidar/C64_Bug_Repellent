@@ -17,10 +17,10 @@ Code extensions:
 - filename.prg:  program tokenized for C64 
 
 Programs were entered, error-checked, and converted for C64
-using 'retro-typein-tools' available via
-'pip3 install retro-typein-tools' for Python 3.6 or later.
+using Python tool ```retro-typein-tools``` available via
+```pip3 install retro-typein-tools``` for Python 3.6 or later.
 
-Excerpts from the magazines below:
+Excerpts directly from the magazines below:
 
 ******************************************************************************
 C-64 BUG REPELLENT (Version 1 - Apr84-May84)
