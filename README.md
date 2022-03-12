@@ -27,7 +27,8 @@ C-64 BUG REPELLENT (Version 1 - Apr84-May84)
 By Michael Kleinert and David Barron
 
 If you're an Ahoy! reader, chances are that from time to time you type in
-programs listed in the back. Unfortunately, man is not perfect and you've probably made errors typing them in. Another sad but true fact is that you then
+programs listed in the back. Unfortunately, man is not perfect and you've
+probably made errors typing them in. Another sad but true fact is that you then
 had to check the nonworking programs line by line, hoping to spot your errors.
 This has never been fun, and never will be.
 In order to alleviate this situation, we've developed a system for the
@@ -88,7 +89,8 @@ the listing, depress and hold the SHIFT key.  To pause for an extended period,
 depress SHIFT LOCK.  As long as it is locked, the display will remain frozen.  
 
 Compare the table your machine generates to the table in Ahoy! that follows the
-program you're entering. If you spot a difference, an error exists in the line.Jot down the numbers of lines where contradictions occur, LIST each line, spot
+program you're entering. If you spot a difference, an error exists in the line.
+Jot down the numbers of lines where contradictions occur, LIST each line, spot
 the errors, and correct them.
 
 ******************************************************************************
