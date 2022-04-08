@@ -1,0 +1,3 @@
+Pillow==8.1.0
+pytesseract==0.3.7
+retro-typein-tools==0.1.3
